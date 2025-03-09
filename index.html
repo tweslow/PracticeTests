@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Practice Questions</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <!-- Dropdown to select different question sets -->
+  <div class="controls">
+    <label for="setSelect">Select a Question Set:</label>
+    <select id="setSelect"></select>
+  </div>
+
+  <!-- Question/Choices Container -->
+  <div class="question-container">
+    <div id="questionText" class="question-text">Loading...</div>
+    <ul id="choicesList"></ul>
+  </div>
+
+  <!-- Navigation and Check buttons -->
+  <div class="nav-buttons">
+    <button id="checkBtn">Check Answer</button>
+    <button id="prevBtn">Previous</button>
+    <button id="nextBtn">Next</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

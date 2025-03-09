@@ -1,0 +1,24 @@
+[
+  {
+    "question": "Which term describes hiding data within another file?",
+    "choices": [
+      "Encryption",
+      "Hashing",
+      "Steganography",
+      "Tokenization"
+    ],
+    "answerIndex": 2,
+    "explanation": "Steganography is the practice of hiding data within another type of file."
+  },
+  {
+    "question": "Which of the following ensures data has not been altered?",
+    "choices": [
+      "Confidentiality",
+      "Integrity",
+      "Availability",
+      "Authorization"
+    ],
+    "answerIndex": 1,
+    "explanation": "Integrity focuses on preventing unauthorized alterations of data."
+  }
+]
