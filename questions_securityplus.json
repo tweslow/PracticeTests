@@ -1,24 +1,2003 @@
 [
   {
-    "question": "Which term describes hiding data within another file?",
+    "question": "1. Which term best describes the concept of hiding data within another file, such as embedding a message inside an image?",
     "choices": [
       "Encryption",
       "Hashing",
       "Steganography",
       "Tokenization"
     ],
-    "answerIndex": 2,
-    "explanation": "Steganography is the practice of hiding data within another type of file."
+    "answerIndex": 2
   },
   {
-    "question": "Which of the following ensures data has not been altered?",
+    "question": "2. Which of the following is NOT a common trait of ransomware?",
+    "choices": [
+      "Uses asymmetric encryption only",
+      "Demands a payment to restore encrypted files",
+      "Displays a ransom note or message",
+      "Often spreads via phishing or drive-by downloads"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "3. What is the primary goal of the Principle of Least Privilege?",
+    "choices": [
+      "Assign administrative rights to all staff",
+      "Limit access rights to only what is required",
+      "Ensure maximum system usability",
+      "Restrict physical access to a single entry point"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "4. A user opens an email attachment that installs remote-access malware. This malware is best described as:",
+    "choices": [
+      "Worm",
+      "Trojan",
+      "Ransomware",
+      "Spyware"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "5. Which cryptographic concept ensures data has not been altered in transit?",
     "choices": [
       "Confidentiality",
-      "Integrity",
       "Availability",
+      "Integrity",
       "Authorization"
     ],
-    "answerIndex": 1,
-    "explanation": "Integrity focuses on preventing unauthorized alterations of data."
+    "answerIndex": 2
+  },
+  {
+    "question": "6. Which of the following is a formal evaluation of an organization’s security posture to verify compliance with standards?",
+    "choices": [
+      "Security Policy",
+      "Penetration Test",
+      "Security Audit",
+      "Vulnerability Scan"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "7. Which factor of authentication includes biometrics, such as a fingerprint or retina scan?",
+    "choices": [
+      "Something you know",
+      "Something you have",
+      "Something you are",
+      "Something you do"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "8. Which access control model grants rights through a policy that combines multiple attributes (user, resource, context)?",
+    "choices": [
+      "RBAC",
+      "DAC",
+      "MAC",
+      "ABAC"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "question": "9. A wireless attack that involves sending falsified ARP messages on a LAN is called:",
+    "choices": [
+      "DNS poisoning",
+      "ARP poisoning",
+      "Evil twin",
+      "Rogue AP"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "10. What is the primary function of a Web Application Firewall (WAF)?",
+    "choices": [
+      "Protect against email-based threats",
+      "Filter traffic only at layer 3",
+      "Inspect/filter HTTP/HTTPS to a web app",
+      "Provide load balancing and caching"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "11. Which authentication protocol uses a challenge-response mechanism instead of sending credentials in clear text?",
+    "choices": [
+      "PAP",
+      "CHAP",
+      "RADIUS",
+      "LDAP"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "12. An organization has a fully operational offsite facility ready for immediate use after a disaster. This is called a:",
+    "choices": [
+      "Cold site",
+      "Warm site",
+      "Hot site",
+      "Cloud site"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "13. In digital forensics, which concept ensures evidence is tracked and controlled from collection to presentation?",
+    "choices": [
+      "Order of volatility",
+      "Chain of custody",
+      "Change management",
+      "Nonrepudiation"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "14. Transferring the responsibility of a risk to a third party (e.g., via insurance) is called:",
+    "choices": [
+      "Acceptance",
+      "Mitigation",
+      "Transference",
+      "Avoidance"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "15. What is SIEM primarily used for in a corporate environment?",
+    "choices": [
+      "Configuring routers and switches",
+      "Collecting/analyzing security logs from many sources",
+      "Identifying incorrect firewall rules",
+      "Managing day-to-day backups"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "16. Which device is specifically used to securely store and manage cryptographic keys?",
+    "choices": [
+      "IDS",
+      "HSM",
+      "WAF",
+      "Firewall"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "17. A piece of malicious code that lies dormant until a specific condition or date triggers it is called a:",
+    "choices": [
+      "Rootkit",
+      "Trojan",
+      "Logic bomb",
+      "Spyware"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "18. What is the main weakness of using PAP (Password Authentication Protocol) in remote connections?",
+    "choices": [
+      "It uses strong encryption that is CPU intensive",
+      "Passwords are sent in plain text",
+      "It only runs on UNIX systems",
+      "It requires multi-factor authentication"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "19. In risk management, which strategy involves reducing the impact or likelihood of a risk by implementing controls?",
+    "choices": [
+      "Avoidance",
+      "Mitigation",
+      "Acceptance",
+      "Transference"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "20. Which attack sends unsolicited messages via Bluetooth, often for annoyance or distraction?",
+    "choices": [
+      "Bluesnarfing",
+      "Bluejacking",
+      "Bluebugging",
+      "Blueexploiting"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "21. A rainbow table attack is most effective against:",
+    "choices": [
+      "Systems without a WAF",
+      "Systems that store unsalted password hashes",
+      "Systems with long passphrases",
+      "Systems using one-time tokens"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "22. In a network using 802.1X for authentication, which component is the authentication server?",
+    "choices": [
+      "RADIUS or TACACS+ server",
+      "Web Application Firewall",
+      "LDAP directory on a client PC",
+      "SSO token"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "23. What type of malware encrypts a victim’s files and demands payment to restore access?",
+    "choices": [
+      "RAT",
+      "Keylogger",
+      "Ransomware",
+      "Trojan"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "24. Which term describes an unauthorized AP set up to bypass network security and intercept traffic?",
+    "choices": [
+      "Evil twin",
+      "Rogue AP",
+      "Captive portal",
+      "Controller AP"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "25. Which of these is an example of a preventive control?",
+    "choices": [
+      "Security guards",
+      "Audit logs",
+      "IDS alerts",
+      "Incident response plan"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "26. What technique involves segmenting a network into smaller sections for security and reduced broadcast traffic?",
+    "choices": [
+      "NAT",
+      "VLANs or network segmentation",
+      "Port mirroring",
+      "Wireless bridging"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "27. Nonrepudiation is the process of:",
+    "choices": [
+      "Ensuring data is not altered in transit",
+      "Hiding the sender’s identity",
+      "Proving a user performed a specific action",
+      "Ensuring data is always available"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "28. Which protocol is widely used for secure remote shell access over an untrusted network?",
+    "choices": [
+      "Telnet",
+      "SSH",
+      "FTP",
+      "HTTP"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "29. Zero Trust security relies on which core principle?",
+    "choices": [
+      "Always trust the internal network",
+      "No user/device is trusted by default; always verify",
+      "Strictly perimeter-based security",
+      "Single layer of defense"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "30. Which process ensures software is kept up to date to fix vulnerabilities and improve functionality?",
+    "choices": [
+      "Penetration testing",
+      "Patch management",
+      "Access control",
+      "Configuration baselining"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "31. Which principle ensures no single individual can execute a critical or sensitive task from start to finish?",
+    "choices": [
+      "Security through obscurity",
+      "Separation of duties",
+      "Job rotation",
+      "Least privilege"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "32. What does SLA stand for in the context of service providers?",
+    "choices": [
+      "Service Level Agreement",
+      "Security Layered Approach",
+      "System Load Assessment",
+      "Software Licensing Arrangement"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "33. Which protocol can be used to add security to DNS to protect against spoofing?",
+    "choices": [
+      "DNSSEC",
+      "ARP",
+      "IGMP",
+      "SNMP"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "34. An attacker modifies a DNS server’s cache to redirect traffic to a malicious site. This attack is known as:",
+    "choices": [
+      "DNS hijacking / DNS poisoning",
+      "Pharming",
+      "Domain hijacking",
+      "ARP spoofing"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "35. Which network device restricts or allows traffic based on predefined rules (typically at layers 3 or 4)?",
+    "choices": [
+      "Switch",
+      "Router",
+      "Firewall",
+      "Bridge"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "36. Limiting collected data to only what is needed for a specific purpose is called:",
+    "choices": [
+      "Data minimization",
+      "Data sovereignty",
+      "Data encryption",
+      "Security through obscurity"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "37. A security measure designed to discourage potential attackers, such as warning signs or visible guards, is a:",
+    "choices": [
+      "Deterrent control",
+      "Preventive control",
+      "Detective control",
+      "Corrective control"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "38. What is the purpose of a honeypot?",
+    "choices": [
+      "Distribute traffic loads among multiple servers",
+      "Hide internet traffic from attackers",
+      "Attract attackers to study their methods",
+      "Guarantee zero-day exploits are patched"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "39. Which standard for email encryption uses public key cryptography to secure messages?",
+    "choices": [
+      "SFTP",
+      "SMTP-AES",
+      "S/MIME",
+      "SSH"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "40. Which is an example of a physical access control mechanism?",
+    "choices": [
+      "Smart card reader on a door",
+      "Router access list",
+      "SIEM correlation rule",
+      "Database encryption"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "41. A user inadvertently installs a fileless virus. Which characteristic is associated with fileless malware?",
+    "choices": [
+      "It replicates by inserting itself into other programs",
+      "It resides within OS-native processes in memory",
+      "It requires user email interaction to spread",
+      "It can only run on Linux systems"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "42. A common tool used for gathering publicly available data on a target (OSINT) is:",
+    "choices": [
+      "Exploit kit",
+      "OSINT framework",
+      "HSM",
+      "NAC"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "43. Which ensures all data traveling between a VPN client and server is encrypted?",
+    "choices": [
+      "NAT",
+      "Tunneling",
+      "VLAN trunking",
+      "Proxy"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "44. The purpose of an intermediate Certificate Authority is to:",
+    "choices": [
+      "Issue only self-signed certificates",
+      "Process CSRs on behalf of the root CA",
+      "Replace the need for a root CA",
+      "Generate ephemeral VPN keys"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "45. Kerberos mainly provides:",
+    "choices": [
+      "Single sign-on via ticketing",
+      "Open standard for attribute-based access",
+      "Port-based authentication for wired networks",
+      "End-to-end encryption for email"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "46. When an organization decides to accept a risk, it:",
+    "choices": [
+      "Makes the risk less serious",
+      "Transfers it to a third party",
+      "Stops the risky activity entirely",
+      "Acknowledges the risk without new controls"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "question": "47. Which of these is a trusted third party that issues digital certificates?",
+    "choices": [
+      "Registration Authority",
+      "Certificate Authority",
+      "Local RA",
+      "Intermediate CA"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "48. An SQL injection attack typically targets:",
+    "choices": [
+      "Network routers",
+      "Web servers/back-end databases",
+      "Wireless APs",
+      "Email services"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "49. Spear phishing differs from generic phishing because it:",
+    "choices": [
+      "Utilizes DNS poisoning",
+      "Is targeted to a specific individual or org",
+      "Is always sent via SMS",
+      "Only targets executives"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "50. A dictionary attack on passwords:",
+    "choices": [
+      "Tries every possible alphanumeric combo",
+      "Uses hashed versions of every password",
+      "Uses a precompiled list of common words",
+      "Only works against salted hashes"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "51. Which technique tries a small set of common passwords against multiple accounts?",
+    "choices": [
+      "Brute force",
+      "Rainbow table",
+      "Password spraying",
+      "Credential stuffing"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "52. Which principle states users should have only the minimum access necessary for their jobs?",
+    "choices": [
+      "Need to know",
+      "Job rotation",
+      "Least privilege",
+      "Role-based access control"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "53. In public key (asymmetric) cryptography:",
+    "choices": [
+      "The same key encrypts and decrypts",
+      "A different key is used for encryption vs. decryption",
+      "It is less secure than symmetric",
+      "Keys never expire"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "54. Evil twin attacks are typically associated with:",
+    "choices": [
+      "Rogue DNS resolvers",
+      "Malicious wireless APs spoofing SSIDs",
+      "Impersonating a domain account",
+      "Hijacking a site’s certificate"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "55. Load balancers primarily help with:",
+    "choices": [
+      "Monitoring network traffic for threats",
+      "Blocking unauthorized perimeter access",
+      "Distributing traffic across servers",
+      "Encrypting traffic end-to-end"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "56. A security model using labels or clearances (e.g., Top Secret) is:",
+    "choices": [
+      "DAC",
+      "MAC",
+      "RBAC",
+      "ABAC"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "57. The process of collecting evidence from the most volatile sources first is known as:",
+    "choices": [
+      "Chain of custody",
+      "Data retention",
+      "Order of volatility",
+      "Least privilege"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "58. Which of the following is NOT typically found in a digital certificate?",
+    "choices": [
+      "Public key of the holder",
+      "Validity period",
+      "Private key of the holder",
+      "Signature of the issuing CA"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "59. A worm differs from a virus because it:",
+    "choices": [
+      "Requires user action to propagate",
+      "Encrypts files and demands ransom",
+      "Spreads without user intervention",
+      "Attaches itself to a host file"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "60. Penetration testing differs from a vulnerability scan in that pen testing:",
+    "choices": [
+      "Is an automated process for known vulnerabilities",
+      "Is purely theoretical, no exploitation",
+      "Actively attempts to exploit vulnerabilities",
+      "Only checks for missing patches"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "61. Which term refers to malicious code that pretends to be legitimate software but secretly performs harmful actions?",
+    "choices": [
+      "Trojan",
+      "Rootkit",
+      "Worm",
+      "Backdoor"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "62. TLS is best described as:",
+    "choices": [
+      "A layer 2 tunneling protocol",
+      "A replacement for SSH",
+      "A cryptographic protocol ensuring confidentiality/integrity in transit",
+      "A protocol used to route emails"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "63. Which control type is NOT considered technical?",
+    "choices": [
+      "Firewall rules",
+      "Encryption at rest",
+      "Security policies",
+      "Antivirus software"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "64. The major drawback of security through obscurity is that:",
+    "choices": [
+      "It requires specialized hardware",
+      "It’s not recognized by auditors",
+      "Once hidden details are discovered, security is lost",
+      "It works only with strong encryption"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "65. Privilege escalation often occurs when:",
+    "choices": [
+      "Users fail to log off",
+      "An attacker gains a normal account, then exploits a vulnerability for admin access",
+      "The org implements mandatory vacation",
+      "The firewall is misconfigured"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "66. Resource vs. security constraint typically refers to:",
+    "choices": [
+      "Disabling all encryption to save CPU",
+      "A trade-off between performance and strong security controls",
+      "User preference for convenience over security",
+      "A risk acceptance model for APTs"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "67. Hashing is used primarily to ensure:",
+    "choices": [
+      "Data confidentiality",
+      "Data authenticity and encryption",
+      "Data integrity (detecting changes)",
+      "Data availability"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "68. Security Orchestration, Automation, and Response (SOAR) helps security teams by:",
+    "choices": [
+      "Replacing SIEM entirely",
+      "Automating threat detection/incident response tasks",
+      "Serving as a basic firewall rule set",
+      "Providing only manual log analysis"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "69. Which device analyzes network traffic for malicious activity but does NOT actively block it?",
+    "choices": [
+      "HIDS",
+      "IPS",
+      "IDS",
+      "Firewall"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "70. A warm site for disaster recovery typically contains:",
+    "choices": [
+      "No equipment, just empty space",
+      "Fully operational systems with real-time data",
+      "A partial set of hardware/connectivity, no active data",
+      "Cloud-based analytics tools"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "71. OAuth is primarily used to:",
+    "choices": [
+      "Provide encryption for web traffic",
+      "Automate patch management",
+      "Delegate authorization for accessing user data without revealing credentials",
+      "Secure VoIP communications"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "72. OpenID Connect adds what feature on top of OAuth 2.0?",
+    "choices": [
+      "Stronger encryption ciphers",
+      "Multi-layer firewall integration",
+      "Federated identity and authentication",
+      "Full data sovereignty"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "73. Which social engineering attack uses voice calls to trick users into revealing info?",
+    "choices": [
+      "Vishing",
+      "Phishing",
+      "Pharming",
+      "Smishing"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "74. IaaS, PaaS, and SaaS are examples of:",
+    "choices": [
+      "Cloud service models",
+      "Encryption techniques",
+      "Federated identity services",
+      "Patch deployment strategies"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "75. The NIST Cybersecurity Framework is best described as:",
+    "choices": [
+      "A mandatory government regulation",
+      "A voluntary framework for preventing/detecting/responding to cyber threats",
+      "A standard for pen testing only",
+      "A firewall config guide for federal agencies"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "76. Which type of IDS can monitor multiple hosts from a central point?",
+    "choices": [
+      "HIDS",
+      "NIDS",
+      "NGFW",
+      "SIEM"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "77. SAML is commonly used to:",
+    "choices": [
+      "Securely exchange authentication/authorization data for web SSO",
+      "Encrypt email content between mail servers",
+      "Manage cryptographic keys in PKI",
+      "Auto-configure network devices"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "78. Data at rest means data is:",
+    "choices": [
+      "Moving across a network",
+      "Being processed in memory",
+      "Stored on disk or other media",
+      "In mid-encryption"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "79. A service account is:",
+    "choices": [
+      "A generic account for all employees",
+      "An account used only by executives",
+      "A user account to provide security context for background services",
+      "An account with root-level privileges for everyone"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "80. Which term describes legal ownership/governance of data based on the nation where it is stored?",
+    "choices": [
+      "Data sovereignty",
+      "Data minimization",
+      "GDPR compliance",
+      "Data subject rights"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "81. A method used by attackers to redirect traffic from a legitimate site to a malicious site is:",
+    "choices": [
+      "Spamming",
+      "DNS cache poisoning / Pharming",
+      "ARP poisoning",
+      "URL infiltration"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "82. Business Continuity Planning (BCP) focuses on:",
+    "choices": [
+      "Technical aspects of vulnerability discovery",
+      "Ongoing operations and rapid recovery post-disruption",
+      "Replacing employees and roles",
+      "Strictly perimeter-based security"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "83. Security posture refers to:",
+    "choices": [
+      "System speed and uptime",
+      "Overall defensive status/maturity of an organization",
+      "Physical posture of security guards",
+      "Presence of cybersecurity insurance"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "84. A smurf attack uses spoofed ICMP echo requests to:",
+    "choices": [
+      "Exploit DNS zone transfers",
+      "Overwhelm a target with broadcast replies",
+      "Decrypt wireless traffic in real time",
+      "Perform SQL injection"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "85. When an attacker exploits a valid web session by intercepting/forging session cookies, it is known as:",
+    "choices": [
+      "Session hijacking",
+      "Cross-site scripting",
+      "Network sniffing",
+      "Domain hijacking"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "86. SPF, DKIM, and DMARC are intended to:",
+    "choices": [
+      "Secure DNS resolution",
+      "Provide network segmentation",
+      "Secure/authenticate email",
+      "Encrypt HTTP traffic"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "87. WPA3 offers improvements over WPA2, particularly:",
+    "choices": [
+      "Weaker encryption for IoT devices",
+      "Replacing 802.1X entirely",
+      "Better protection against brute-force and improved key management",
+      "Dropping AES encryption"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "88. Shadow IT refers to:",
+    "choices": [
+      "IT staff working offsite",
+      "Unauthorized tech/services used without IT approval",
+      "Cloud data centers kept undisclosed",
+      "Old hardware retained for testing"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "89. In asymmetric encryption, which key is typically distributed publicly?",
+    "choices": [
+      "Symmetric key",
+      "Private key",
+      "Public key",
+      "Session key"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "90. Avoidance in risk management means:",
+    "choices": [
+      "Acknowledge the risk but accept it",
+      "Implement controls to reduce the risk",
+      "Transfer the risk to an insurer",
+      "Stop the activity that causes the risk"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "question": "91. SFTP runs over which secure protocol by default?",
+    "choices": [
+      "SSH",
+      "HTTPS",
+      "TLS",
+      "SSL"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "92. The act of swiping credit cards through a small device to harvest data is called:",
+    "choices": [
+      "Pharming",
+      "Skimming",
+      "Trojanizing",
+      "Cloning"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "93. Fileless malware avoids detection primarily by:",
+    "choices": [
+      "Using Trojan droppers to install files",
+      "Shutting down antivirus upon install",
+      "Running in memory/OS processes instead of storing files",
+      "Exploiting UEFI firmware"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "94. A whaling attack specifically targets:",
+    "choices": [
+      "Enterprise executives or high-profile individuals",
+      "Social media influencers only",
+      "All employees equally",
+      "Cloud storage systems"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "95. Security Awareness Training is mainly intended to:",
+    "choices": [
+      "Ensure only the security team knows about threats",
+      "Educate employees on recognizing/responding to threats",
+      "Replace all technical controls with user training",
+      "Let employees become CISOs"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "96. Something you do would include which authentication factor?",
+    "choices": [
+      "Password",
+      "PIN",
+      "Typing/keystroke dynamics",
+      "Security token"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "97. In the event of a major security breach, an Incident Response Plan outlines:",
+    "choices": [
+      "Methods for discovering zero-day exploits",
+      "A structured approach to identification, containment, eradication, recovery",
+      "Firewall rules for the DMZ",
+      "Corporate network design"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "98. An MFA solution that uses a key fob code + password is using:",
+    "choices": [
+      "Something you have + something you know",
+      "Something you are + something you do",
+      "Something you know + something you do",
+      "Something you are + somewhere you are"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "99. Security Assertion Markup Language (SAML) is primarily used in:",
+    "choices": [
+      "Email encryption",
+      "Single Sign-On",
+      "Disk encryption",
+      "VPN tunnels"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "100. A Security Operations Center (SOC) typically provides:",
+    "choices": [
+      "24/7 monitoring of security events and response",
+      "R&D for new hardware designs",
+      "Help desk for password resets",
+      "Physical protection for data centers only"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "101. Multi-factor authentication always requires:",
+    "choices": [
+      "One physical token + one password",
+      "Two or more different categories of factors",
+      "Biometric plus passphrase",
+      "At least three factors"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "102. Proxy servers primarily provide:",
+    "choices": [
+      "Direct connections to the Internet",
+      "Caching/filtering and hide internal IPs",
+      "A method to disable LAN encryption",
+      "Complete IDS/IPS functionalities"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "103. ISO 27001 is an international standard focusing on:",
+    "choices": [
+      "Physical security of hardware only",
+      "Requirements for an InfoSec Management System (ISMS)",
+      "Organizational financial audits",
+      "Quality management for manufacturing"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "104. Which attack forces authorized wireless clients to disconnect (false deauth frames)?",
+    "choices": [
+      "Deauthentication/disassociation",
+      "Bluesnarfing",
+      "ARP poisoning",
+      "Key reinstallation"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "105. Network Address Translation (NAT) helps improve security by:",
+    "choices": [
+      "Encrypting data at rest",
+      "Mapping internal IPs to a single public IP, hiding the internal structure",
+      "Blocking inbound port 80",
+      "Segmenting the LAN from the DMZ"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "106. MD5 is no longer recommended for hashing because:",
+    "choices": [
+      "It uses too many resources",
+      "It’s vulnerable to collisions/insecure",
+      "It’s only supported on Linux",
+      "It can’t produce a digital fingerprint"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "107. Heuristic analysis in antivirus software detects threats by:",
+    "choices": [
+      "Matching exact file signatures",
+      "Blocking all .exe files by default",
+      "Looking for suspicious behavior/code patterns",
+      "Checking only file size changes"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "108. An all-in-one security solution (firewall, IDS/IPS, AV, content filtering) is called:",
+    "choices": [
+      "Hybrid cloud",
+      "Security orchestration",
+      "Unified Threat Management (UTM)",
+      "Bastion host"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "109. Non-credentialed vulnerability scans are performed:",
+    "choices": [
+      "With full admin privileges",
+      "Without using any valid account credentials",
+      "Only by internal employees",
+      "Blocking every open port"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "110. SPF (Sender Policy Framework) is designed to combat:",
+    "choices": [
+      "Identity theft",
+      "Email spoofing (spam/phishing)",
+      "Trojan horse attacks",
+      "SQL injection in webmail clients"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "111. A hash collision occurs when:",
+    "choices": [
+      "Two different inputs produce the same hash",
+      "A password is changed while the system is off",
+      "The encryption key is too short",
+      "The hashing algorithm uses salt"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "112. SSH operates by default on port:",
+    "choices": [
+      "21",
+      "22",
+      "23",
+      "25"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "113. Which type of access control is role-based, granting permissions by job function?",
+    "choices": [
+      "DAC",
+      "MAC",
+      "RBAC",
+      "ABAC"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "114. Nmap is a popular tool for:",
+    "choices": [
+      "Writing secure code",
+      "Automated vulnerability exploitation",
+      "Network scanning/port discovery",
+      "Key logging"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "115. In a cyber exercise, the Blue Team is responsible for:",
+    "choices": [
+      "Simulating attacks",
+      "Defending the organization’s systems",
+      "Pen-testing other networks",
+      "Creating zero-day exploits"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "116. Tokenization differs from encryption because it:",
+    "choices": [
+      "Replaces data with random tokens rather than producing ciphertext",
+      "Is only used for data in transit",
+      "Produces a fixed-length digest",
+      "Is only done with private keys"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "117. TACACS+ differs from RADIUS by:",
+    "choices": [
+      "Using UDP only",
+      "Combining AAA into a single process",
+      "Encrypting the entire packet, not just the password",
+      "Being open-source"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "118. Containerization (e.g., Docker) helps secure apps by:",
+    "choices": [
+      "Combining them into a single OS image",
+      "Sharing the same kernel but isolating apps",
+      "Encrypting all network connections by default",
+      "Requiring bare metal servers"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "119. Mantraps are used primarily to:",
+    "choices": [
+      "Alert the SOC on suspicious IP addresses",
+      "Prevent tailgating into secured areas",
+      "Eliminate CCTV cameras",
+      "Block electromagnetic interference"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "120. PKI includes all of the following EXCEPT:",
+    "choices": [
+      "Certificate Authorities",
+      "Registration Authorities",
+      "Symmetric key distribution only",
+      "Certificate revocation mechanisms"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "121. A certificate chain typically begins with:",
+    "choices": [
+      "Intermediate CA",
+      "A subordinate authority",
+      "A root CA’s self-signed cert",
+      "The end-user certificate"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "122. Disaster Recovery (DR) typically focuses on:",
+    "choices": [
+      "Ensuring continuity of core business processes",
+      "Rapid restoration of IT infrastructure/data after disruption",
+      "Strategic growth of the organization",
+      "Day-to-day staff workflow"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "123. BYOD stands for:",
+    "choices": [
+      "Build Your Own Domain",
+      "Bring Your Own Device",
+      "Backup Your Official Data",
+      "Build Your Online Database"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "124. An attacker injects malicious scripts into a webpage that other users view. This is called:",
+    "choices": [
+      "Cross-Site Request Forgery",
+      "Cross-Site Scripting",
+      "SQL injection",
+      "Clickjacking"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "125. Security through obscurity typically fails because:",
+    "choices": [
+      "Attackers eventually discover hidden details",
+      "Modern orgs rely on open standards",
+      "Laws prohibit obscurity",
+      "Obscurity alone is sufficient"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "126. A hotfix refers to:",
+    "choices": [
+      "A major OS update distributed monthly",
+      "A high-priority software patch for a specific issue",
+      "A hardware-level firmware repair",
+      "Removing vulnerable software from production"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "127. In the diamond model of intrusion analysis, which is NOT one of the four core elements?",
+    "choices": [
+      "Adversary",
+      "Capability",
+      "Infrastructure",
+      "Zero day"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "question": "128. The act of following an authorized person into a restricted area without providing credentials is:",
+    "choices": [
+      "Tailgating",
+      "Shoulder surfing",
+      "Man-in-the-middle",
+      "Spoofing"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "129. Hidden cameras that capture unauthorized entry attempts are which type of control?",
+    "choices": [
+      "Preventive",
+      "Detective",
+      "Compensating",
+      "Deterrent"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "130. Cross-Site Request Forgery (CSRF) typically tricks a user into:",
+    "choices": [
+      "Executing unwanted actions on a site they are authenticated to",
+      "Installing a malicious macro in a spreadsheet",
+      "Performing a DNS zone transfer",
+      "Deleting system files with root privileges"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "131. IPSec operates at which layer of the OSI model?",
+    "choices": [
+      "Layer 2",
+      "Layer 3",
+      "Layer 4",
+      "Layer 7"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "132. Behavior-based detection in IDS/IPS uses:",
+    "choices": [
+      "Known malicious signatures",
+      "Heuristics or AI to analyze patterns",
+      "Port-based filtering",
+      "Destination IP blacklisting"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "133. The purpose of federated identity management is:",
+    "choices": [
+      "Limiting SSO to internal resources",
+      "Allowing multiple orgs to use the same identification data across networks",
+      "Prohibiting cross-company data access",
+      "Replacing two-factor authentication"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "134. Which is NOT one of the three key layers of the CIA triad?",
+    "choices": [
+      "Confidentiality",
+      "Availability",
+      "Integrity",
+      "Authentication"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "question": "135. Software Defined Networking (SDN) primarily:",
+    "choices": [
+      "Uses only hardware-based firewalls",
+      "Centralizes network control separate from hardware",
+      "Eliminates VLANs",
+      "Replaces routers with AI"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "136. If multiple vulnerabilities are found, they should be prioritized based on:",
+    "choices": [
+      "CVSS score and business impact",
+      "Default alphabetical listing",
+      "Complexity of vulnerability name",
+      "IT staff opinions"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "137. Penetration Test Reports typically include all EXCEPT:",
+    "choices": [
+      "Methodologies used",
+      "Specific vulnerabilities",
+      "Step-by-step instructions to hack external parties",
+      "Remediation recommendations"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "138. Common Vulnerabilities and Exposures (CVE) is best described as:",
+    "choices": [
+      "A tool for hacking systems",
+      "A database of known security vulnerabilities",
+      "A vendor’s patch system",
+      "Government-only regulation"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "139. Incident Management vs. Incident Response differ in that:",
+    "choices": [
+      "Incident management is strategic/ongoing; response is tactical/immediate",
+      "Incident management only covers technical recovery",
+      "Incident response includes risk acceptance strategies",
+      "Incident management is always after incident response"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "140. Data Loss Prevention (DLP) solutions primarily aim to:",
+    "choices": [
+      "Recover data post-ransomware",
+      "Encrypt network traffic",
+      "Prevent unauthorized transfer/disclosure of sensitive data",
+      "Monitor website uptimes"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "141. A rootkit is specifically designed to:",
+    "choices": [
+      "Provide remote system access",
+      "Hide its presence (and possibly others) at a deep OS level",
+      "Shut down security services immediately",
+      "Self-replicate over a network"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "142. MDM (Mobile Device Management) systems help by:",
+    "choices": [
+      "Providing advanced pen test tools",
+      "Enforcing security policies on smartphones/tablets",
+      "Upgrading server OS automatically",
+      "Restricting all Wi-Fi use"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "143. Which approach is most proactive for discovering threats already in an environment?",
+    "choices": [
+      "Log archiving",
+      "Threat hunting",
+      "Firewall config review",
+      "Encrypting data at rest"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "144. Reducing or removing security protections without justification is known as:",
+    "choices": [
+      "Hardening",
+      "Normalization",
+      "Deprovisioning",
+      "Misconfiguration"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "question": "145. Penetration testing can be:",
+    "choices": [
+      "White box, black box, or gray box",
+      "Only external",
+      "Done without formal permission",
+      "Fully automated with no human input"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "146. In a pharming attack, users are tricked by:",
+    "choices": [
+      "Fake tech support calls",
+      "Malicious code injection in a browser",
+      "DNS redirection to a counterfeit site",
+      "Opening an email attachment with macros"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "147. Data in transit refers to data:",
+    "choices": [
+      "Stored on a server",
+      "Moving across the network between devices",
+      "On offline backup tapes",
+      "Archived for compliance"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "148. The 802.11i standard with WPA2 commonly uses:",
+    "choices": [
+      "WEP encryption",
+      "AES-based CCMP",
+      "SSL certificate pinning",
+      "RC4 stream cipher"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "149. A security principle ensuring two employees must authorize a transaction is:",
+    "choices": [
+      "Need to know",
+      "Separation of duties",
+      "Dual control",
+      "Least privilege"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "150. Data Integrity ensures:",
+    "choices": [
+      "Only authorized users can access data",
+      "Data is accurate and unaltered",
+      "Data is secret and encrypted",
+      "Data is always available/backed up"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "151. SaaS (Software as a Service) means the provider offers:",
+    "choices": [
+      "Infrastructure-level control to customers",
+      "A hosted application accessible via the Internet",
+      "Code libraries for devs",
+      "On-prem hardware management"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "152. SPIM (spam over IM) is also called:",
+    "choices": [
+      "Phishing",
+      "Smishing",
+      "Vishing",
+      "Spim"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "question": "153. SSH File Transfer Protocol (SFTP) secures file transfers by:",
+    "choices": [
+      "Using SSH (port 22) channels for encryption/auth",
+      "Requiring user certificates with every upload",
+      "Allowing only password-based auth",
+      "Using public key from SSL"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "154. Gray box penetration testing means testers:",
+    "choices": [
+      "Have complete knowledge of the target",
+      "Have partial knowledge (some info) of the target",
+      "Have zero knowledge of the target",
+      "Are performing open code auditing only"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "155. Static code analysis helps find:",
+    "choices": [
+      "Active threats on the network",
+      "Vulnerabilities by examining source code without running it",
+      "Zero-day attacks in the wild",
+      "Performance issues in hardware"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "156. A captive portal is often used:",
+    "choices": [
+      "To block all wireless connections",
+      "On public Wi-Fi to require user login or TOS acceptance",
+      "To provide encryption for email attachments",
+      "As an intrusion prevention system"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "157. Shoulder surfing is best described as:",
+    "choices": [
+      "Following someone into a restricted area",
+      "Watching someone’s screen/keyboard to steal info",
+      "Searching for unsecured Wi-Fi",
+      "Eavesdropping on phone calls"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "158. Intrusion Prevention Systems (IPS) can:",
+    "choices": [
+      "Only detect suspicious traffic",
+      "Detect and automatically block suspicious traffic",
+      "Replace antivirus entirely",
+      "Generate encryption keys for secure emails"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "159. A worm infection is often identified by:",
+    "choices": [
+      "Multiple malicious processes spreading without user action",
+      "Hidden processes hooking system calls",
+      "Trojan code piggybacking on legit installers",
+      "HTML attachments in phishing emails"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "160. Malware that logs keystrokes to steal credentials is called:",
+    "choices": [
+      "Spyware",
+      "Keylogger",
+      "Ransomware",
+      "Adware"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "161. Security audits differ from vulnerability assessments by also focusing on:",
+    "choices": [
+      "Regulatory compliance/policy conformance",
+      "Attack exploitation",
+      "Zero trust architecture",
+      "Physical asset inventory"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "162. Tracert (Windows) or traceroute (Linux) is used to:",
+    "choices": [
+      "Perform port scans",
+      "Identify the path packets take to a destination",
+      "Monitor real-time network usage",
+      "Perform file integrity checks"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "163. A corrective control is designed to:",
+    "choices": [
+      "Identify a security breach in real time",
+      "Discourage attackers from attempting something",
+      "Fix or remedy issues after a security event",
+      "Block an attack from happening"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "164. Single Sign-On (SSO) aims to:",
+    "choices": [
+      "Provide multiple credential prompts per app",
+      "Limit auth to local machine accounts only",
+      "Allow one set of credentials across multiple apps",
+      "Block privileged user accounts"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "165. E-discovery involves:",
+    "choices": [
+      "Tracking only physical evidence",
+      "Managing compliance for electronically stored info",
+      "Generating cryptographic keys",
+      "Automating encryption for all email"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "166. The NIST Risk Management Framework is aimed at:",
+    "choices": [
+      "Only large e-commerce websites",
+      "Guidelines for handling/assessing risk in info systems",
+      "Mandatory laws for the private sector",
+      "Setting firewall standards"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "167. Logging and monitoring are examples of:",
+    "choices": [
+      "Preventive controls",
+      "Detective controls",
+      "Deterrent controls",
+      "Corrective controls"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "168. A user’s account locks after 3 failed password attempts as per policy. This is:",
+    "choices": [
+      "Password spraying",
+      "Account lockout policy",
+      "Dictionary attack",
+      "Brute force vulnerability"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "169. Hot sites vs. cold sites differ primarily in:",
+    "choices": [
+      "Temperature requirements",
+      "Geographic location",
+      "Level of readiness/equipment installed",
+      "Use of virtualization"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "170. Shoulder surfing can be mitigated by:",
+    "choices": [
+      "Long passphrases",
+      "Privacy filters on monitors",
+      "Encrypted USB drives",
+      "Using multi-factor tokens"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "171. A CASB (Cloud Access Security Broker) solution:",
+    "choices": [
+      "Is only for virtualization security",
+      "Controls/monitors cloud usage and enforces policies",
+      "Provides physical security for data centers",
+      "Offers open DNS resolution"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "172. Wireless disassociation attacks exploit:",
+    "choices": [
+      "Fake DNS entries",
+      "False deauth frames forcing client disconnect",
+      "WPA2 passphrase weaknesses directly",
+      "Firewall misconfigurations"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "173. A VPN ensures:",
+    "choices": [
+      "Encrypted data over public lines",
+      "Unsecured data traveling on public lines",
+      "RADIUS-based encryption only",
+      "No encryption, just authentication"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "174. Deep packet inspection is a feature of:",
+    "choices": [
+      "Signature-based antivirus",
+      "Next-generation firewalls",
+      "Layer 2 switches",
+      "DNS servers"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "175. Incident response typically includes all EXCEPT:",
+    "choices": [
+      "Identification",
+      "Containment",
+      "Eradication",
+      "Revenue forecasting"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "question": "176. A Single Point of Failure (SPoF) is:",
+    "choices": [
+      "A robust HA design",
+      "A critical component that, if it fails, the entire system fails",
+      "An unexploitable vulnerability",
+      "Recommended best practice in design"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "177. Vulnerability scanning can detect:",
+    "choices": [
+      "Active verified attacks in progress",
+      "Potential weaknesses that might be exploited",
+      "Which exploit kit an attacker will use",
+      "Data exfiltration in real time"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "178. A SIEM solution is which type of control?",
+    "choices": [
+      "Detective",
+      "Preventive",
+      "Deterrent",
+      "Corrective"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "179. Certificate chaining is used to:",
+    "choices": [
+      "Prolong certificate validity",
+      "Combine multiple user certs into one",
+      "Link several certs to establish trust from root to end-entity",
+      "Generate ephemeral keys"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "180. A bug bounty encourages:",
+    "choices": [
+      "Reporting vulnerabilities to the vendor for a reward",
+      "Selling exploits on the black market",
+      "Hiding security flaws from public",
+      "Paying attackers to keep silent"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "181. AAA stands for:",
+    "choices": [
+      "Authentication, Authorization, Accounting",
+      "Application, Access, Audit",
+      "Availability, Authorization, Accreditation",
+      "Access, Address, Allocate"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "182. In role-based access control (RBAC), permissions are assigned to:",
+    "choices": [
+      "Individuals directly",
+      "The entire company",
+      "Roles based on job function",
+      "MAC labels"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "183. Phishing typically attempts to:",
+    "choices": [
+      "Exploit zero-days in the browser",
+      "Trick users into revealing personal/login info",
+      "Modify DNS entries in a router",
+      "Inject malicious SQL code"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "184. Bluejacking is generally:",
+    "choices": [
+      "Harmless unsolicited messaging over Bluetooth",
+      "Stealing info from Bluetooth devices",
+      "Gaining admin privileges on Windows",
+      "An encrypted form of social engineering"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "185. A hybrid cloud model means:",
+    "choices": [
+      "All services are on-prem",
+      "Data is stored locally, encryption in the cloud",
+      "A mix of private (on-prem) and public cloud resources",
+      "Single-tenant environment with no external providers"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "186. DNSSEC provides:",
+    "choices": [
+      "Encryption of DNS requests/responses",
+      "Authentication/integrity for DNS data via digital signatures",
+      "ARP security updates",
+      "NAT functionality"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "187. Cross-Site Scripting (XSS) can be mitigated by:",
+    "choices": [
+      "Strong input validation and output encoding",
+      "Encrypting database connections",
+      "Using SPF for email",
+      "Limiting physical access to servers"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "188. Business Impact Analysis (BIA) primarily identifies:",
+    "choices": [
+      "Financial cost of hardware",
+      "Potential effects of disruptions on critical ops",
+      "Root causes of data breaches",
+      "Network traffic anomalies"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "189. Nonrepudiation can be achieved through:",
+    "choices": [
+      "MD5 hashing",
+      "Digital signatures/key management",
+      "Symmetric encryption with one key",
+      "Obscuring log files"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "190. Air gapping a system:",
+    "choices": [
+      "Physically isolates it from all networks",
+      "Patches the kernel automatically",
+      "Uses encryption only on Wi-Fi",
+      "Ensures automatic daily backups"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "191. Syslog is used primarily for:",
+    "choices": [
+      "File encryption",
+      "System message logging on devices/servers",
+      "DNS request forwarding",
+      "Firewall packet filtering"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "192. Role-based vs. Attribute-based access control differ in that ABAC:",
+    "choices": [
+      "Assigns perms to users individually",
+      "Uses user/resource/context attributes for policy decisions",
+      "Eliminates the need for identity providers",
+      "Assigns perms strictly by job function"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "193. Screen locks that require a PIN after idle time are an example of:",
+    "choices": [
+      "Deterrent control",
+      "Preventive control",
+      "Detective control",
+      "Corrective control"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "194. A Remote Access Trojan (RAT) is:",
+    "choices": [
+      "A malicious remote admin tool giving attackers backdoor access",
+      "A protocol for remote shell connections",
+      "A hardware-based firewall",
+      "A SIEM function"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "195. Transport Layer Security (TLS) replaced:",
+    "choices": [
+      "FTP",
+      "SMTP",
+      "SSL",
+      "SSH"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "196. Common Vulnerability Scoring System (CVSS) provides:",
+    "choices": [
+      "A unique ID for each vuln",
+      "A numeric severity rating (0–10)",
+      "Real-time exploit code",
+      "Auto patch deployment"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "197. Post-quantum cryptography aims to:",
+    "choices": [
+      "Use simpler encryption breakable by quantum",
+      "Develop algorithms resilient against quantum attacks",
+      "Eliminate key exchange entirely",
+      "Replace TLS with plaintext"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "198. How does an IDS differ from an IPS?",
+    "choices": [
+      "IDS blocks malicious activity automatically",
+      "IPS only logs suspicious traffic",
+      "IDS detects/alerts; IPS can detect/block in real-time",
+      "Both are purely passive"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "199. Strong passwords typically have:",
+    "choices": [
+      "A single dictionary word in uppercase",
+      "A mix of upper/lower letters, digits, symbols",
+      "Repeated patterns for memorization",
+      "Fewer than 8 characters"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "200. A zero-day vulnerability is one that:",
+    "choices": [
+      "Is already known and patched",
+      "Is discovered and reported to all users immediately",
+      "Has no official vendor patch when discovered",
+      "Only affects websites using Java"
+    ],
+    "answerIndex": 2
   }
 ]
+
