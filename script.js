@@ -79,7 +79,7 @@ function displayQuestion() {
     return;
   }
 
-  questionText.textContent = `Q${currentIndex + 1}: ${questionObj.question}`;
+ // questionText.textContent = `Q${currentIndex + 1}: ${questionObj.question}`;
   
   // Populate choices as radio buttons
   choicesList.innerHTML = "";
