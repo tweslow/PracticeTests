@@ -70,3 +70,14 @@ body {
 .nav-buttons button:hover {
   background: #333;
 }
+
+.correct-label {
+  color: #4caf50;  /* Green */
+  font-weight: bold;
+}
+
+.incorrect-label {
+  color: #f44336;  /* Red */
+  font-weight: bold;
+}
+
