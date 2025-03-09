@@ -1,8 +1,7 @@
-// Example sets (adjust as needed)
+// Example sets: You can add or remove entries depending on how many JSON files you have.
 const sets = [
   { name: "Security+ Questions", file: "questions_securityplus.json" }
-  // Add more sets if desired:
-  // { name: "Other Course", file: "questions_other.json" }
+  // { name: "Other Set", file: "questions_other.json" },
 ];
 
 let questions = [];
@@ -16,7 +15,7 @@ window.addEventListener('DOMContentLoaded', () => {
   const prevBtn = document.getElementById('prevBtn');
   const nextBtn = document.getElementById('nextBtn');
 
-  // Populate dropdown with available question sets
+  // Populate the dropdown with available question sets
   sets.forEach(s => {
     const option = document.createElement('option');
     option.value = s.file;
@@ -24,23 +23,26 @@ window.addEventListener('DOMContentLoaded', () => {
     setSelect.appendChild(option);
   });
 
-  // By default, load the first set
+  // Load the first set by default
   loadQuestions(sets[0].file);
 
-  // If user changes the set
+  // If user selects a different set from the dropdown
   setSelect.addEventListener('change', () => {
     loadQuestions(setSelect.value);
   });
 
+  // Check Answer button
   checkBtn.addEventListener('click', () => {
     checkAnswer();
   });
 
+  // Previous button
   prevBtn.addEventListener('click', () => {
     currentIndex = (currentIndex - 1 + questions.length) % questions.length;
     displayQuestion();
   });
 
+  // Next button
   nextBtn.addEventListener('click', () => {
     currentIndex = (currentIndex + 1) % questions.length;
     displayQuestion();
@@ -48,7 +50,7 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 /**
- * Fetch and load the selected questions file (JSON).
+ * Fetches the JSON file and loads the question array.
  */
 function loadQuestions(file) {
   fetch(file)
@@ -66,26 +68,32 @@ function loadQuestions(file) {
 }
 
 /**
- * Display the current question and its choices.
+ * Displays the current question and its choices in the UI.
+ * Also clears any old feedback each time we show a new question.
  */
 function displayQuestion() {
   const questionObj = questions[currentIndex];
   const questionText = document.getElementById('questionText');
   const choicesList = document.getElementById('choicesList');
 
+  // Clear any old correct/incorrect labels
+  clearFeedback();
+
+  // If there's no questionObj (empty array?), handle gracefully
   if (!questionObj) {
     questionText.textContent = "No questions available.";
     choicesList.innerHTML = "";
     return;
   }
 
- questionText.textContent = questionObj.question;
-  
-  // Populate choices as radio buttons
+  // Show the question text (remove "Q#:" if you prefer)
+  questionText.textContent = questionObj.question;
+
+  // Populate the multiple-choice answers as radio buttons
   choicesList.innerHTML = "";
   questionObj.choices.forEach((choice, idx) => {
     const li = document.createElement('li');
-    
+
     const label = document.createElement('label');
     label.style.cursor = "pointer";
 
@@ -103,31 +111,69 @@ function displayQuestion() {
 }
 
 /**
- * Check which choice is selected and compare with the answer.
+ * Checks the selected radio button vs. the correct answerIndex.
+ * Displays 'Correct!' or 'Incorrect!' next to the chosen option.
  */
 function checkAnswer() {
   const questionObj = questions[currentIndex];
   const radios = document.getElementsByName('questionChoice');
   let selectedValue = null;
 
-  for (let r of radios) {
-    if (r.checked) {
-      selectedValue = parseInt(r.value, 10);
+  // Find which radio button is selected
+  for (let i = 0; i < radios.length; i++) {
+    if (radios[i].checked) {
+      selectedValue = parseInt(radios[i].value, 10);
       break;
     }
   }
 
+  // If user hasn't selected anything, handle as you wish
   if (selectedValue === null) {
     alert("Please select an answer first.");
     return;
   }
 
-  const correct = (selectedValue === questionObj.answerIndex);
-  if (correct) {
-    alert("Correct! " + (questionObj.explanation || ""));
+  // Clear any old 'Correct!' or 'Incorrect!' text
+  clearFeedback();
+
+  // Identify the label for the chosen radio
+  const chosenRadio = radios[selectedValue];
+  const chosenLabel = chosenRadio.parentNode;
+
+  if (selectedValue === questionObj.answerIndex) {
+    // The user's chosen answer is correct
+    chosenLabel.appendChild(createFeedbackSpan(" - Correct!", "correct-label"));
   } else {
-    alert("Incorrect.\n\n" + "Correct answer: " 
-          + questionObj.choices[questionObj.answerIndex] 
-          + "\n\n" + (questionObj.explanation || ""));
+    // The user's chosen answer is incorrect
+    chosenLabel.appendChild(createFeedbackSpan(" - Incorrect!", "incorrect-label"));
+
+    // Optionally mark the correct answer so the user sees which one is right
+    const correctRadio = radios[questionObj.answerIndex];
+    const correctLabel = correctRadio.parentNode;
+    correctLabel.appendChild(createFeedbackSpan(" - Correct!", "correct-label"));
   }
 }
+
+/**
+ * Removes any existing 'Correct!' or 'Incorrect!' text from all radio labels.
+ */
+function clearFeedback() {
+  const labels = document.querySelectorAll('#choicesList label');
+  labels.forEach(label => {
+    // Remove any spans with the correct-label or incorrect-label classes
+    const spans = label.querySelectorAll('.correct-label, .incorrect-label');
+    spans.forEach(span => span.remove());
+  });
+}
+
+/**
+ * Creates a small <span> element to display next to the chosen answer,
+ * e.g. " - Correct!" or " - Incorrect!" with custom CSS styling.
+ */
+function createFeedbackSpan(text, className) {
+  const span = document.createElement('span');
+  span.textContent = text;
+  span.classList.add(className);
+  return span;
+}
+
