@@ -124,7 +124,12 @@ function checkAnswer() {
   const radios = document.getElementsByName('questionChoice');
   let selectedValue = null;
 
-  // Find which radio button is selected
+  // Check if already answered to avoid double counting
+  if (questionObj.answered) {
+    alert("You’ve already answered this question.");
+    return;
+  }
+
   for (let i = 0; i < radios.length; i++) {
     if (radios[i].checked) {
       selectedValue = parseInt(radios[i].value, 10);
@@ -132,32 +137,38 @@ function checkAnswer() {
     }
   }
 
-  // If user hasn't selected anything, handle as you wish
   if (selectedValue === null) {
     alert("Please select an answer first.");
     return;
   }
 
-  // Clear any old 'Correct!' or 'Incorrect!' text
   clearFeedback();
 
-  // Identify the label for the chosen radio
   const chosenRadio = radios[selectedValue];
   const chosenLabel = chosenRadio.parentNode;
 
   if (selectedValue === questionObj.answerIndex) {
-    // The user's chosen answer is correct
     chosenLabel.appendChild(createFeedbackSpan(" - Correct!", "correct-label"));
+    correctCount++;
   } else {
-    // The user's chosen answer is incorrect
     chosenLabel.appendChild(createFeedbackSpan(" - Incorrect!", "incorrect-label"));
-
-    // Optionally mark the correct answer so the user sees which one is right
     const correctRadio = radios[questionObj.answerIndex];
     const correctLabel = correctRadio.parentNode;
     correctLabel.appendChild(createFeedbackSpan(" - Correct!", "correct-label"));
   }
+
+  // Mark as answered
+  questionObj.answered = true;
+
+  attemptedCount++;
+  updateScore();
 }
+
+function updateScore() {
+  document.getElementById('correctCount').textContent = correctCount;
+  document.getElementById('attemptedCount').textContent = attemptedCount;
+}
+
 
 /**
  * Removes any existing 'Correct!' or 'Incorrect!' text from all radio labels.
