@@ -1,0 +1,502 @@
+[
+  {
+    "question": "1. What is a key benefit of using a cloud environment in a security architecture?",
+    "choices": [
+      "Complete physical control",
+      "Improved local storage",
+      "Scalability and elasticity",
+      "Elimination of security risks"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "2. Which type of network architecture uses software to control traffic flow instead of hardware?",
+    "choices": [
+      "Segmented network",
+      "Cloud-native",
+      "Software-defined networking (SDN)",
+      "Flat network"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "3. What does 'fail-closed' behavior imply for a security device?",
+    "choices": [
+      "It logs activity only when compromised",
+      "It denies traffic when an error occurs",
+      "It automatically updates firewall rules",
+      "It allows all traffic during a failure"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "4. Which term describes the physical separation of systems for security purposes?",
+    "choices": [
+      "Virtual segmentation",
+      "Air-gapped",
+      "Microservices",
+      "Containerization"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "5. What is a jump server typically used for?",
+    "choices": [
+      "File sharing between departments",
+      "Providing secure administrative access to sensitive systems",
+      "Hosting web applications",
+      "Running anti-malware scans"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "6. What kind of firewall operates at the application layer?",
+    "choices": [
+      "Layer 3 switch",
+      "WAF (Web Application Firewall)",
+      "Proxy server",
+      "Packet filter"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "7. What does high availability primarily aim to improve?",
+    "choices": [
+      "Encryption strength",
+      "System uptime and resilience",
+      "Password security",
+      "Data compression"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "8. Which type of network segmentation involves logical rather than physical separation?",
+    "choices": [
+      "Air-gapping",
+      "Logical segmentation",
+      "Fail-open",
+      "Multitenancy"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "9. Which system is designed for remote sensor control and automation?",
+    "choices": [
+      "SCADA/ICS",
+      "Hypervisor",
+      "BIOS",
+      "WAF"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "10. What is the main security concern in virtualization environments?",
+    "choices": [
+      "Power outages",
+      "VM escape",
+      "Increased heat",
+      "Improper cabling"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "11. Which access control method restricts access based on device status and user identity?",
+    "choices": [
+      "VPN tunneling",
+      "802.1X",
+      "RBAC",
+      "MAC filtering"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "12. Which term refers to running code in isolated containers for enhanced security?",
+    "choices": [
+      "Virtualization",
+      "Sandboxing",
+      "Containerization",
+      "Segmentation"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "13. What is the main purpose of a load balancer?",
+    "choices": [
+      "Encrypt user traffic",
+      "Route traffic to reduce load on any single server",
+      "Block malware",
+      "Create logs of file access"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "14. What does 'IaC' stand for in modern infrastructure design?",
+    "choices": [
+      "Infrastructure as Code",
+      "Internet and Cloud",
+      "Intrusion and Control",
+      "Interoperability and Compatibility"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "15. What advantage does microservices architecture provide?",
+    "choices": [
+      "Increased bandwidth",
+      "Single point of failure",
+      "Modularity and scalability",
+      "Better hardware integration"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "16. What is a proxy server used for in network security?",
+    "choices": [
+      "Encrypt file transfers",
+      "Block unauthorized logins",
+      "Act as an intermediary between clients and services",
+      "Scan endpoints for vulnerabilities"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "17. What is the function of a VPN?",
+    "choices": [
+      "Store credentials",
+      "Encrypt communications over untrusted networks",
+      "Block phishing emails",
+      "Monitor bandwidth usage"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "18. What is a major drawback of decentralized network architecture?",
+    "choices": [
+      "Single point of failure",
+      "No scalability",
+      "Less central management and control",
+      "Increased encryption overhead"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "19. Which device is used to passively monitor network traffic without interfering?",
+    "choices": [
+      "Firewall",
+      "IDS in tap mode",
+      "Proxy server",
+      "Router"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "20. What defines the role of a WAF?",
+    "choices": [
+      "Encrypt network traffic",
+      "Prevent DDoS attacks",
+      "Protect web applications from attacks like SQLi and XSS",
+      "Authenticate VPN users"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "21. What type of access control list (ACL) is typically implemented on firewalls and routers?",
+    "choices": [
+      "File-level ACL",
+      "Packet filtering ACL",
+      "Web ACL",
+      "Directory ACL"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "22. Which term refers to systems embedded into hardware devices?",
+    "choices": [
+      "Virtual machines",
+      "Serverless apps",
+      "Embedded systems",
+      "Microservices"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "23. What type of site is fully equipped and ready to run operations immediately?",
+    "choices": [
+      "Cold site",
+      "Warm site",
+      "Hot site",
+      "Offsite backup"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "24. What is the purpose of segmentation in a network?",
+    "choices": [
+      "Increase latency",
+      "Reduce IP addressing",
+      "Limit scope of attacks",
+      "Simplify VLAN configuration"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "25. Which backup type captures all system changes since the last full backup?",
+    "choices": [
+      "Differential",
+      "Incremental",
+      "Snapshot",
+      "Clone"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "26. Which site option is least expensive but has the slowest recovery time?",
+    "choices": [
+      "Cold site",
+      "Hot site",
+      "Warm site",
+      "Cloud-based site"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "27. What technology ensures data continues to flow even if one server goes offline?",
+    "choices": [
+      "Containerization",
+      "Load balancing",
+      "NAT",
+      "VLAN tagging"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "28. What type of system is designed to reduce power usage during outages?",
+    "choices": [
+      "Load balancer",
+      "UPS",
+      "Router",
+      "SAN"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "29. What is a major benefit of virtualization in security architecture?",
+    "choices": [
+      "Eliminates the need for updates",
+      "Requires less training",
+      "Isolates environments",
+      "Uses more bandwidth"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "30. What does tokenization achieve in data protection?",
+    "choices": [
+      "Compress data",
+      "Make data immutable",
+      "Replace sensitive data with nonsensitive substitutes",
+      "Backup data to the cloud"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "31. What is the main purpose of data masking?",
+    "choices": [
+      "Prevent password reuse",
+      "Secure physical backups",
+      "Hide original data with fictional but realistic values",
+      "Encrypt real-time transmissions"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "32. What type of site uses geolocation for load balancing and redundancy?",
+    "choices": [
+      "Failover site",
+      "Cloud mirror",
+      "Geographically dispersed site",
+      "Intrusion zone"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "33. What does 'obfuscation' mean in the context of data security?",
+    "choices": [
+      "Masking file names",
+      "Altering data to make it less understandable to unauthorized users",
+      "Encrypting using symmetric algorithms",
+      "Compressing large databases"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "34. Which data state refers to information being actively processed?",
+    "choices": [
+      "Data at rest",
+      "Data in transit",
+      "Data in use",
+      "Data encrypted"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "35. What does geographic redundancy in data centers provide?",
+    "choices": [
+      "Faster local processing",
+      "Improved encryption",
+      "Disaster recovery resilience",
+      "Simplified routing"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "36. What is one downside to a hybrid cloud model?",
+    "choices": [
+      "No scalability",
+      "Vendor lock-in",
+      "Complexity of managing both environments",
+      "Increased local storage costs"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "37. What is the term for combining multiple data centers to increase availability?",
+    "choices": [
+      "Virtual LAN",
+      "High availability clustering",
+      "Tunneling",
+      "Packet forwarding"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "38. Which backup technique ensures changes are captured in near real-time?",
+    "choices": [
+      "Snapshot",
+      "Replication",
+      "Cold backup",
+      "Mirror imaging"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "39. What is the purpose of a secure enclave?",
+    "choices": [
+      "Encrypt web traffic",
+      "Allow wireless access",
+      "Isolate sensitive operations in hardware",
+      "Create a VLAN"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "40. Which data classification would include internal financial records?",
+    "choices": [
+      "Public",
+      "Confidential",
+      "Regulated",
+      "Trade secret"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "41. What backup type stores a snapshot of a system at a specific point in time?",
+    "choices": [
+      "Incremental",
+      "Versioned",
+      "Snapshot",
+      "Differential"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "42. What security concept is supported by placing systems in different network zones?",
+    "choices": [
+      "Root of trust",
+      "Data classification",
+      "Segmentation",
+      "Obfuscation"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "43. What is a key benefit of infrastructure as code (IaC)?",
+    "choices": [
+      "Manual patching",
+      "Automated and repeatable infrastructure deployment",
+      "Less documentation",
+      "Increased use of spreadsheets"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "44. What is an example of data at rest?",
+    "choices": [
+      "Database on a hard drive",
+      "Encrypted email in transit",
+      "Live chat session",
+      "Remote desktop session"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "45. Which system type must meet strict timing constraints in real-world processes?",
+    "choices": [
+      "Virtual machines",
+      "SCADA",
+      "Real-time operating system (RTOS)",
+      "Cloud VMs"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "46. What defines the 'ease of recovery' consideration in security architecture?",
+    "choices": [
+      "How fast a backup can be created",
+      "How quickly systems return to operational status",
+      "How securely data is encrypted",
+      "How passwords are rotated"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "47. What is a major benefit of using containers over full VMs?",
+    "choices": [
+      "More physical isolation",
+      "Faster boot and lower overhead",
+      "Support for legacy firmware",
+      "Centralized key escrow"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "48. What does continuity of operations planning (COOP) ensure?",
+    "choices": [
+      "Faster file sharing",
+      "Business continues during and after an incident",
+      "MFA is enforced",
+      "Local networks remain online"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "49. What is a sandbox environment primarily used for?",
+    "choices": [
+      "Encrypting sensitive emails",
+      "Testing code in an isolated environment",
+      "Backing up large databases",
+      "Cleaning up phishing emails"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "50. What type of attack does a geographically dispersed site help protect against?",
+    "choices": [
+      "Phishing",
+      "DNS poisoning",
+      "Natural disasters",
+      "Buffer overflows"
+    ],
+    "answerIndex": 2
+  }
+]
