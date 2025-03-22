@@ -1,0 +1,502 @@
+[
+  {
+    "question": "1. What type of threat actor is typically well-funded and acts on behalf of a government?",
+    "choices": [
+      "Hacktivist",
+      "Insider threat",
+      "Unskilled attacker",
+      "Nation-state"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "question": "2. What motivates a hacktivist most commonly?",
+    "choices": [
+      "Financial gain",
+      "Espionage",
+      "Philosophical or political beliefs",
+      "Chaos"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "3. What is a common characteristic of insider threats?",
+    "choices": [
+      "Operate from foreign countries",
+      "Require social engineering tactics",
+      "Have authorized access to systems",
+      "Always act alone"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "4. Which term refers to software or hardware deployed outside of IT’s knowledge?",
+    "choices": [
+      "Zero-day",
+      "Shadow IT",
+      "Hacktivism",
+      "Exploited host"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "5. Which type of vulnerability is exploited during a race condition attack?",
+    "choices": [
+      "Cryptographic",
+      "Firmware",
+      "Application",
+      "Virtualization"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "6. What is an example of a message-based threat vector?",
+    "choices": [
+      "Open service port",
+      "Instant messaging",
+      "Typosquatting",
+      "Outdated firmware"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "7. What type of attack involves tricking users into clicking malicious links that look legitimate?",
+    "choices": [
+      "Typosquatting",
+      "Smishing",
+      "Phishing",
+      "Replay attack"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "8. Which vulnerability exists when software is no longer supported by its developer?",
+    "choices": [
+      "Race condition",
+      "Legacy system",
+      "Zero-day",
+      "Cryptographic flaw"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "9. What type of network attack attempts to overwhelm a system using amplified traffic?",
+    "choices": [
+      "MITM",
+      "DDoS",
+      "Credential stuffing",
+      "Phishing"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "10. Which of the following is considered a social engineering attack?",
+    "choices": [
+      "SQL Injection",
+      "Phishing",
+      "Buffer overflow",
+      "Keylogger"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "11. What is a primary goal of a DNS attack?",
+    "choices": [
+      "Collect biometric data",
+      "Interfere with name resolution",
+      "Disable firewall rules",
+      "Overwrite system memory"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "12. What type of malware disguises itself as legitimate software?",
+    "choices": [
+      "Worm",
+      "Spyware",
+      "Trojan",
+      "Rootkit"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "13. What vulnerability involves sending malicious code through input fields in a web form?",
+    "choices": [
+      "XSS",
+      "Replay",
+      "Buffer overflow",
+      "MITM"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "14. Which attack exploits the difference between when a file is checked and when it is used?",
+    "choices": [
+      "Buffer overflow",
+      "Race condition",
+      "SQLi",
+      "Privilege escalation"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "15. What is the purpose of patching software?",
+    "choices": [
+      "Encrypt communications",
+      "Correct vulnerabilities",
+      "Remove old user accounts",
+      "Install firewalls"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "16. What kind of malware is designed to lock data and demand payment?",
+    "choices": [
+      "Rootkit",
+      "Trojan",
+      "Ransomware",
+      "Keylogger"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "17. What kind of threat vector involves installing apps outside official app stores?",
+    "choices": [
+      "Zero-day",
+      "Rooting",
+      "Side loading",
+      "Smishing"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "18. What technique helps isolate compromised devices to prevent lateral movement?",
+    "choices": [
+      "Segmentation",
+      "Patching",
+      "Backups",
+      "Tokenization"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "19. What is typosquatting?",
+    "choices": [
+      "Impersonating a brand via email",
+      "Using incorrect DNS settings",
+      "Registering domain names similar to legitimate sites",
+      "Sending deceptive text messages"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "20. What is the goal of business email compromise (BEC)?",
+    "choices": [
+      "To gain access to server ports",
+      "To extract data from firmware",
+      "To impersonate executives and steal data or funds",
+      "To compromise mobile applications"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "21. What tool can detect anomalies like impossible travel or concurrent sessions?",
+    "choices": [
+      "Firewall",
+      "SIEM",
+      "VPN",
+      "Sandbox"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "22. What kind of attack intercepts and possibly alters communication between two parties?",
+    "choices": [
+      "MITM",
+      "Phishing",
+      "Credential spraying",
+      "DNS poisoning"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "23. Which malware resides in the bootloader to avoid detection?",
+    "choices": [
+      "Spyware",
+      "Trojan",
+      "Rootkit",
+      "Worm"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "24. What is credential stuffing?",
+    "choices": [
+      "Using multiple passwords in a brute-force attack",
+      "Reusing stolen credentials on different sites",
+      "Encrypting passwords in a database",
+      "Escalating user privileges"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "25. What is an effective way to reduce vulnerabilities from outdated systems?",
+    "choices": [
+      "Use default credentials",
+      "Segment legacy systems",
+      "Avoid backups",
+      "Implement open ports"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "26. What makes zero-day vulnerabilities dangerous?",
+    "choices": [
+      "They are encrypted",
+      "They have already been patched",
+      "They are unknown to the vendor",
+      "They only affect mobile systems"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "27. What is a logic bomb?",
+    "choices": [
+      "A timed ransomware attack",
+      "Code triggered by specific events",
+      "A DDoS amplification method",
+      "A network configuration file"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "28. What can be used to detect and prevent buffer overflow attacks?",
+    "choices": [
+      "Firewall rules",
+      "SIEM alerts",
+      "Static code analysis",
+      "Antivirus definitions"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "29. What is the primary concern with firmware vulnerabilities?",
+    "choices": [
+      "They increase bandwidth usage",
+      "They are difficult to detect and patch",
+      "They affect encryption protocols",
+      "They only apply to mobile devices"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "30. Which tool is typically used to scan for open ports and known vulnerabilities?",
+    "choices": [
+      "Firewall",
+      "VPN",
+      "Vulnerability scanner",
+      "Token manager"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "31. What is the first step in mitigating an ongoing security incident?",
+    "choices": [
+      "Eradication",
+      "Containment",
+      "Recovery",
+      "Lessons learned"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "32. What is the purpose of the Common Vulnerability Scoring System (CVSS)?",
+    "choices": [
+      "Score phishing threats",
+      "Rate severity of vulnerabilities",
+      "Measure brute-force attempts",
+      "Log network traffic"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "33. What type of social engineering involves impersonating someone over the phone?",
+    "choices": [
+      "Phishing",
+      "Smishing",
+      "Vishing",
+      "Pretexting"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "34. What defines a supply chain attack?",
+    "choices": [
+      "Tampering with update servers or third-party vendors",
+      "Exploiting SQL injection in web apps",
+      "Manipulating DNS records",
+      "Hijacking IoT devices on a LAN"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "35. Which term describes the re-use of legitimate communication to gain access?",
+    "choices": [
+      "Replay attack",
+      "Phishing",
+      "Rootkit",
+      "Spraying"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "36. What is a sign of excessive resource consumption on a device?",
+    "choices": [
+      "Outdated firmware",
+      "Missing logs",
+      "High CPU usage",
+      "TLS downgrade"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "37. Which technique involves analyzing vulnerabilities during code execution?",
+    "choices": [
+      "Static analysis",
+      "Patch management",
+      "Dynamic analysis",
+      "Threat modeling"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "38. What does 'Impossible travel' indicate?",
+    "choices": [
+      "Blocked ports",
+      "Simultaneous logins from geographically distant locations",
+      "Disabled MFA",
+      "High packet loss"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "39. Which technique removes outdated or unnecessary software to reduce attack surface?",
+    "choices": [
+      "Segmentation",
+      "Hardening",
+      "Replication",
+      "Quarantine"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "40. What best describes 'privilege escalation'?",
+    "choices": [
+      "Switching to another user's session",
+      "Gaining higher access rights than originally authorized",
+      "Bypassing 2FA",
+      "Brute-forcing credentials"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "41. Which vulnerability is most commonly exploited via cross-site scripting (XSS)?",
+    "choices": [
+      "SQL database",
+      "Web browser",
+      "DNS resolver",
+      "BIOS firmware"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "42. Which term defines using a fake but trusted website to steal information?",
+    "choices": [
+      "Whaling",
+      "Watering hole attack",
+      "Credential stuffing",
+      "Side channel attack"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "43. What is the primary use of a host-based firewall?",
+    "choices": [
+      "Encrypt emails",
+      "Block local threats and traffic on the host",
+      "Analyze server logs",
+      "Manage VLANs"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "44. What does 'resource inaccessibility' typically suggest?",
+    "choices": [
+      "Malware is consuming bandwidth",
+      "Attack has denied legitimate access to resources",
+      "Backup process failed",
+      "TLS handshake error"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "45. What kind of vulnerability exists when encryption algorithms are outdated or weak?",
+    "choices": [
+      "Firmware vulnerability",
+      "Cryptographic vulnerability",
+      "OS-based vulnerability",
+      "Virtualization flaw"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "46. Which term describes a malicious user leveraging a vulnerability to leave a system open for future access?",
+    "choices": [
+      "Spraying",
+      "Trapdoor",
+      "Keylogger",
+      "Zero-day"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "47. What is the purpose of a honeyfile in incident detection?",
+    "choices": [
+      "Store encryption keys",
+      "Distract attackers with fake data",
+      "Record system logs",
+      "Encrypt sensitive backups"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "48. Which of the following is considered a physical mitigation technique?",
+    "choices": [
+      "Firewall",
+      "MFA",
+      "Faraday cage",
+      "Hashing"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "49. What is the impact of a birthday attack?",
+    "choices": [
+      "Exposes TLS vulnerabilities",
+      "Exploits hashing algorithm collisions",
+      "Replays encrypted network packets",
+      "Cracks multi-factor authentication"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "50. What technique best prevents the re-use of intercepted credentials?",
+    "choices": [
+      "Salting passwords",
+      "Hashing with MD5",
+      "Reusing session tokens",
+      "Disabling account lockout"
+    ],
+    "answerIndex": 0
+  }
+]
