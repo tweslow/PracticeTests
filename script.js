@@ -11,6 +11,10 @@ const sets = [
 
 let questions = [];
 let currentIndex = 0;
+//score counters
+let correctCount = 0;
+let attemptedCount = 0;
+
 
 window.addEventListener('DOMContentLoaded', () => {
   const setSelect = document.getElementById('setSelect');
