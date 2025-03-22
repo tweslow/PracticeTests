@@ -1,0 +1,502 @@
+[
+  {
+    "question": "1. What is the primary purpose of a security awareness training program?",
+    "choices": [
+      "Teach coding best practices",
+      "Improve user compliance with security policies",
+      "Train users in incident response",
+      "Monitor employee activity"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "2. What is the role of an acceptable use policy (AUP)?",
+    "choices": [
+      "Define password complexity rules",
+      "Outline guidelines for proper use of company resources",
+      "Control remote access",
+      "Encrypt sensitive emails"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "3. Which role is responsible for ensuring data is used appropriately?",
+    "choices": [
+      "Data processor",
+      "Data controller",
+      "System administrator",
+      "Data owner"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "4. What does GDPR regulate?",
+    "choices": [
+      "Financial reporting requirements",
+      "Data protection and privacy in the EU",
+      "Cybercrime penalties in the U.S.",
+      "Cloud service contracts"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "5. What is a purpose of performing a business impact analysis (BIA)?",
+    "choices": [
+      "To reduce malware infections",
+      "To identify critical business functions and dependencies",
+      "To assign access control levels",
+      "To scan for vulnerabilities"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "6. What does MTTR stand for in risk management?",
+    "choices": [
+      "Mean Time to Resolution",
+      "Maximum Time to Respond",
+      "Minimum Time to Restore",
+      "Managed Technical Risk"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "7. What is the main focus of risk avoidance?",
+    "choices": [
+      "Transferring the risk to another party",
+      "Reducing the impact of the risk",
+      "Not engaging in the risky activity at all",
+      "Monitoring risk behavior"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "8. What is the difference between qualitative and quantitative risk analysis?",
+    "choices": [
+      "Quantitative uses descriptive categories; qualitative uses numbers",
+      "Qualitative uses categories; quantitative uses numerical values",
+      "There is no difference",
+      "Qualitative is always more accurate"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "9. What document outlines the responsibilities and expectations between two business entities?",
+    "choices": [
+      "Risk register",
+      "SLA",
+      "MOU",
+      "Incident response plan"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "10. What does a Service-Level Agreement (SLA) define?",
+    "choices": [
+      "Incident containment procedures",
+      "Security scanning tools",
+      "Performance expectations between provider and client",
+      "Employee termination rules"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "11. Which of the following is considered a compensating control?",
+    "choices": [
+      "Firewall rules",
+      "Access control lists",
+      "Manual approval process when MFA isn’t feasible",
+      "Encryption algorithm"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "12. What is the role of a data steward?",
+    "choices": [
+      "Grant access to user accounts",
+      "Encrypt all network traffic",
+      "Ensure data quality and compliance with governance",
+      "Create firewall rules"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "13. What is the purpose of a risk register?",
+    "choices": [
+      "Track software license usage",
+      "Record known risks, their severity, and responses",
+      "Log user activities",
+      "Assign user permissions"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "14. What defines due diligence in a security program?",
+    "choices": [
+      "The act of encrypting user data",
+      "Ongoing monitoring and assessment of risks",
+      "Using only open-source software",
+      "Outsourcing IT support"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "15. Which of the following best describes risk transference?",
+    "choices": [
+      "Encrypting data at rest",
+      "Accepting known risks",
+      "Shifting the risk to a third party like an insurance provider",
+      "Eliminating all threats"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "16. What should an organization perform before adopting a new third-party service?",
+    "choices": [
+      "Vulnerability scan",
+      "Access control review",
+      "Vendor risk assessment",
+      "Penetration test"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "17. What is shadow IT?",
+    "choices": [
+      "Unpatched operating systems",
+      "Unauthorized software or hardware used without approval",
+      "Outdated risk controls",
+      "Malicious cloud applications"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "18. What is the purpose of a security audit?",
+    "choices": [
+      "Train users on phishing",
+      "Verify compliance with policies and controls",
+      "Detect malware",
+      "Rotate encryption keys"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "19. What is meant by residual risk?",
+    "choices": [
+      "The risk left after mitigation measures are applied",
+      "All potential vulnerabilities",
+      "Third-party vendor risk",
+      "Expired certificates"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "20. What is the role of the data owner?",
+    "choices": [
+      "Manage the day-to-day usage of data",
+      "Determine classification and access permissions",
+      "Install anti-malware software",
+      "Configure firewalls"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "21. What is regulatory compliance?",
+    "choices": [
+      "Optional adherence to ethical practices",
+      "Adhering to legal and government-imposed rules",
+      "Choosing a password policy",
+      "Encrypting customer files"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "22. What is an example of a physical administrative control?",
+    "choices": [
+      "Badge-based access policy",
+      "Security guard",
+      "Firewall configuration",
+      "VPN tunnel"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "23. What is a key purpose of a privacy policy?",
+    "choices": [
+      "Block malicious links",
+      "Define how personal data is collected, used, and protected",
+      "Restrict website access",
+      "Monitor logs"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "24. What does security governance refer to?",
+    "choices": [
+      "The use of firewalls and ACLs",
+      "Strategic management of security policies, roles, and procedures",
+      "Employee device management",
+      "Encrypting backup files"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "25. What is the purpose of continuous monitoring?",
+    "choices": [
+      "To detect and respond to changes or threats in real time",
+      "To update software drivers",
+      "To increase internet speed",
+      "To backup all files daily"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "26. What type of framework provides specific controls and best practices for cybersecurity?",
+    "choices": [
+      "Risk matrix",
+      "Control framework",
+      "Firewall rulebook",
+      "Device catalog"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "27. What is the role of legal counsel in a cybersecurity program?",
+    "choices": [
+      "Install VPNs",
+      "Configure cloud servers",
+      "Interpret compliance and regulatory requirements",
+      "Perform root cause analysis"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "28. What does HIPAA primarily protect?",
+    "choices": [
+      "Educational data",
+      "Payment card data",
+      "Health information",
+      "Intellectual property"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "29. What is a common output of a risk assessment?",
+    "choices": [
+      "Risk register",
+      "Firewall rule set",
+      "Patch list",
+      "Security baseline"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "30. What is a privacy impact assessment (PIA)?",
+    "choices": [
+      "A scan for unpatched systems",
+      "A review of cryptographic strength",
+      "A review of how data handling affects privacy",
+      "A tool for malware detection"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "31. What is the primary goal of third-party risk management?",
+    "choices": [
+      "To review firewall logs",
+      "To encrypt user traffic",
+      "To ensure vendor security posture does not harm the organization",
+      "To configure access policies"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "32. What is a retention policy?",
+    "choices": [
+      "A rule for limiting the number of failed login attempts",
+      "A policy for how long data is stored before deletion",
+      "A method for patching legacy systems",
+      "A script for automating backups"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "33. Which standard applies to securing credit card data?",
+    "choices": [
+      "HIPAA",
+      "PCI DSS",
+      "GDPR",
+      "SOX"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "34. What is the role of a control owner?",
+    "choices": [
+      "Manage hardware inventory",
+      "Ensure that assigned security controls are implemented and operating as intended",
+      "Reset expired passwords",
+      "Run penetration tests"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "35. What is the purpose of a compliance audit?",
+    "choices": [
+      "Find outdated antivirus definitions",
+      "Ensure adherence to legal, regulatory, or policy standards",
+      "Identify shared folders",
+      "Test encryption algorithms"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "36. What risk strategy involves accepting potential consequences without additional control?",
+    "choices": [
+      "Avoidance",
+      "Transfer",
+      "Acceptance",
+      "Mitigation"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "37. What type of law governs intellectual property protection?",
+    "choices": [
+      "Regulatory",
+      "Administrative",
+      "Civil",
+      "Criminal"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "38. What type of policy defines how long employees can access systems before renewal or review?",
+    "choices": [
+      "Security policy",
+      "Account review policy",
+      "Change control policy",
+      "Remote access policy"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "39. Which of the following is an administrative control?",
+    "choices": [
+      "Antivirus software",
+      "Security awareness training",
+      "Biometric scanner",
+      "Firewall"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "40. What is the role of a data processor under GDPR?",
+    "choices": [
+      "Determine how data is used",
+      "Ensure encryption of all data",
+      "Process personal data on behalf of the controller",
+      "Set retention policies"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "41. What does the NIST Cybersecurity Framework help organizations do?",
+    "choices": [
+      "Prevent insider threats",
+      "Identify, protect, detect, respond, and recover",
+      "Encrypt database tables",
+      "Install SIEMs"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "42. What is the function of a change control policy?",
+    "choices": [
+      "Encrypt all configuration files",
+      "Track and manage system changes",
+      "Auto-rotate user passwords",
+      "Analyze DNS logs"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "43. What defines the least privilege principle?",
+    "choices": [
+      "Granting users access to all systems by default",
+      "Restricting access to the minimum required for a task",
+      "Disabling user accounts regularly",
+      "Locking out all external accounts"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "44. What is the difference between an SLA and an MOU?",
+    "choices": [
+      "SLAs are internal; MOUs are legal",
+      "SLAs are formal, enforceable; MOUs are more informal agreements",
+      "MOUs are used for backups; SLAs are for firewalls",
+      "They are the same"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "45. What is the primary reason for employee offboarding procedures?",
+    "choices": [
+      "Prevent VPN downtime",
+      "Revoke access and protect organizational assets",
+      "Send exit surveys",
+      "Install updates"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "46. What is included in a disaster recovery plan (DRP)?",
+    "choices": [
+      "Salary structure",
+      "Steps to restore systems after an incident",
+      "Marketing materials",
+      "Software licensing costs"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "47. What does risk mitigation involve?",
+    "choices": [
+      "Avoiding all risk",
+      "Reducing the likelihood or impact of a threat",
+      "Ignoring minor threats",
+      "Sharing all data with vendors"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "48. What is the key element of a security policy?",
+    "choices": [
+      "Router settings",
+      "Defined rules and procedures for protecting information",
+      "Data compression algorithms",
+      "Automated patching"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "49. What is the purpose of classification levels in data governance?",
+    "choices": [
+      "To prioritize storage devices",
+      "To identify how data should be protected based on sensitivity",
+      "To track bandwidth usage",
+      "To eliminate redundancy"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "50. What is an example of ethical behavior in cybersecurity roles?",
+    "choices": [
+      "Sharing private data to test colleagues",
+      "Disabling logs for performance",
+      "Following company policy and protecting user privacy",
+      "Exploiting old vulnerabilities for testing"
+    ],
+    "answerIndex": 2
+  }
+]
