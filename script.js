@@ -67,6 +67,8 @@ function loadQuestions(file) {
     .then(data => {
       questions = data;
       currentIndex = 0;
+      let correctCount = 0;
+      let attemptedCount = 0;
       displayQuestion();
     })
     .catch(error => {
