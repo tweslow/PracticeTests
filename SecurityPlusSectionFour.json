@@ -1,0 +1,502 @@
+[
+  {
+    "question": "1. What is the purpose of establishing a secure baseline?",
+    "choices": [
+      "To encrypt communications",
+      "To create a reference configuration for secure deployments",
+      "To scan for vulnerabilities",
+      "To back up system logs"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "2. Which deployment model allows employees to use personal devices at work?",
+    "choices": [
+      "COPE",
+      "BYOD",
+      "CYOD",
+      "MDM"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "3. What does mobile device management (MDM) primarily do?",
+    "choices": [
+      "Encrypt VPN traffic",
+      "Manage and enforce security policies on mobile devices",
+      "Monitor Wi-Fi bandwidth",
+      "Authenticate remote users"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "4. Which authentication protocol uses a challenge-response mechanism?",
+    "choices": [
+      "PEAP",
+      "CHAP",
+      "EAP",
+      "RADIUS"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "5. What is the function of a host-based intrusion prevention system (HIPS)?",
+    "choices": [
+      "Encrypt host data",
+      "Detect and block malicious activity on the host",
+      "Monitor bandwidth",
+      "Provide VPN access"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "6. What activity is most associated with vulnerability management?",
+    "choices": [
+      "Writing firewall rules",
+      "Performing penetration tests",
+      "Patching known security holes",
+      "Creating group policies"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "7. What is the main goal of data sanitization?",
+    "choices": [
+      "Encrypt sensitive files",
+      "Permanently remove all data from storage media",
+      "Mask data for analysis",
+      "Compress large databases"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "8. Which scan uses live code execution to find vulnerabilities?",
+    "choices": [
+      "Static analysis",
+      "Port scan",
+      "Dynamic analysis",
+      "DNS scan"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "9. Which document provides rules for how external assessors may test your environment?",
+    "choices": [
+      "Statement of Work",
+      "Service-Level Agreement",
+      "Rules of Engagement",
+      "Memorandum of Agreement"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "10. What is the first phase in the incident response process?",
+    "choices": [
+      "Eradication",
+      "Preparation",
+      "Containment",
+      "Recovery"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "11. What is the primary purpose of a SIEM solution?",
+    "choices": [
+      "Monitor social media",
+      "Aggregate logs and detect threats",
+      "Encrypt network traffic",
+      "Assign permissions"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "12. Which concept refers to the automatic removal of expired user accounts?",
+    "choices": [
+      "Deprovisioning",
+      "Privilege escalation",
+      "Account recovery",
+      "Single sign-on"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "13. What is the purpose of an email security gateway?",
+    "choices": [
+      "Encrypt all email messages",
+      "Filter and block malicious or unwanted email",
+      "Enable multi-factor authentication",
+      "Monitor user permissions"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "14. What does file integrity monitoring (FIM) detect?",
+    "choices": [
+      "Password reuse",
+      "Changes to critical system files",
+      "Open ports",
+      "Network loops"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "15. What is a DLP solution designed to prevent?",
+    "choices": [
+      "Log tampering",
+      "Data exfiltration",
+      "Software piracy",
+      "System crashes"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "16. What is an example of a credential management policy?",
+    "choices": [
+      "Set account lockout threshold",
+      "Enable port forwarding",
+      "Assign VLAN tags",
+      "Configure SIEM alerts"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "17. What protocol is used to verify the authenticity of email senders?",
+    "choices": [
+      "SMTP",
+      "SPF",
+      "HTTPS",
+      "TLS"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "18. Which tool allows a system to respond to a security alert automatically?",
+    "choices": [
+      "SIEM",
+      "SOAR",
+      "VPN",
+      "DLP"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "19. What does attestation verify?",
+    "choices": [
+      "VPN encryption status",
+      "Device trustworthiness",
+      "Password strength",
+      "Data backup frequency"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "20. What is the purpose of a password vault?",
+    "choices": [
+      "Store expired passwords",
+      "Securely store and manage credentials",
+      "Share credentials across devices",
+      "Generate digital certificates"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "21. What does user behavior analytics (UBA) track?",
+    "choices": [
+      "Group policy changes",
+      "Firewall rules",
+      "Anomalous user activity patterns",
+      "Data retention policies"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "22. What type of filtering is used to restrict access to specific websites?",
+    "choices": [
+      "Email filtering",
+      "MAC filtering",
+      "Web filtering",
+      "DNS filtering"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "23. What is the purpose of a vulnerability scan?",
+    "choices": [
+      "Find unpatched vulnerabilities in systems",
+      "Reset user credentials",
+      "Log network activity",
+      "Monitor firewall rules"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "24. What is the function of patch management?",
+    "choices": [
+      "Audit files for changes",
+      "Schedule automatic reboots",
+      "Deploy security updates",
+      "Encrypt system partitions"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "25. What is the primary purpose of a tabletop exercise?",
+    "choices": [
+      "Test cryptographic key length",
+      "Simulate incident response without system impact",
+      "Deploy encrypted backups",
+      "Identify user roles"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "26. Which protocol is used to encrypt web traffic?",
+    "choices": [
+      "HTTP",
+      "TLS",
+      "LDAP",
+      "NTP"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "27. What type of report includes current vulnerabilities and potential impacts?",
+    "choices": [
+      "Network scan report",
+      "Audit log",
+      "Vulnerability assessment",
+      "System uptime report"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "28. What defines provisioning in identity management?",
+    "choices": [
+      "Assigning users to groups",
+      "Enabling user access and permissions",
+      "Removing admin privileges",
+      "Monitoring user logins"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "29. What is the purpose of NAC (Network Access Control)?",
+    "choices": [
+      "Control who can access a network based on policy",
+      "Encrypt wireless traffic",
+      "Scan system files",
+      "Monitor printer activity"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "30. Which protocol is used to centrally manage authentication requests?",
+    "choices": [
+      "SAML",
+      "RADIUS",
+      "IMAP",
+      "SNMP"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "31. What does a Just-In-Time (JIT) permission model provide?",
+    "choices": [
+      "Always-on admin rights",
+      "Temporary access when needed",
+      "Permanent access to guest accounts",
+      "Role escalation monitoring"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "32. What is an ephemeral credential?",
+    "choices": [
+      "One that never expires",
+      "Used once for a short time",
+      "Hardcoded credential",
+      "Primary user password"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "33. What type of authentication uses fingerprint recognition?",
+    "choices": [
+      "Something you know",
+      "Something you are",
+      "Something you have",
+      "Somewhere you are"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "34. What is a sandbox environment used for?",
+    "choices": [
+      "Encrypt logs",
+      "Test applications in isolation",
+      "Create backups",
+      "Assign user permissions"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "35. What defines an agentless scan?",
+    "choices": [
+      "It only scans network switches",
+      "It requires software on each endpoint",
+      "It doesn't install software on the target system",
+      "It only works with Linux"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "36. What does an IDS do?",
+    "choices": [
+      "Prevents unauthorized access",
+      "Detects potential intrusions",
+      "Blocks spam emails",
+      "Encrypts network traffic"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "37. What is the benefit of automated ticket creation during incident response?",
+    "choices": [
+      "Avoids human interaction",
+      "Speeds up response and resolution tracking",
+      "Eliminates the need for analysts",
+      "Disables rogue users"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "38. What is a common output of a digital forensic investigation?",
+    "choices": [
+      "Password reset",
+      "Certificate renewal",
+      "Chain of custody report",
+      "Group policy audit"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "39. What is the benefit of using dashboards in monitoring tools?",
+    "choices": [
+      "Encrypt sensitive data",
+      "Provide real-time visualizations of metrics",
+      "Test failover sites",
+      "Install software updates"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "40. What does SAML enable?",
+    "choices": [
+      "Firewall filtering",
+      "Single sign-on across systems",
+      "Encrypted DNS resolution",
+      "Logging of API access"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "41. What is the purpose of chain of custody?",
+    "choices": [
+      "Track software licenses",
+      "Ensure evidence integrity in investigations",
+      "Manage user roles",
+      "Audit login times"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "42. What defines the benefit of automation in security operations?",
+    "choices": [
+      "More manual oversight",
+      "Fewer alerts",
+      "Faster incident response",
+      "Decreased scalability"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "43. Which system detects unauthorized changes to the system baseline?",
+    "choices": [
+      "WAF",
+      "FIM",
+      "VPN",
+      "SIEM"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "44. What does risk tolerance represent?",
+    "choices": [
+      "Willingness to accept risk without mitigation",
+      "Acceptable number of users on a system",
+      "Type of malware allowed on the network",
+      "Amount of budget used for security"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "45. What does TLS protect?",
+    "choices": [
+      "DNS servers",
+      "Email filters",
+      "Data in transit",
+      "Data at rest"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "46. What is the goal of log aggregation?",
+    "choices": [
+      "Delete old logs",
+      "Encrypt event data",
+      "Collect logs from multiple sources for analysis",
+      "Convert logs to video format"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "47. What defines the 'eradication' phase in incident response?",
+    "choices": [
+      "Restore backups",
+      "Remove the root cause of the incident",
+      "Train users on awareness",
+      "Create firewall rules"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "48. What is an indicator of compromise (IOC)?",
+    "choices": [
+      "Encrypted tunnel",
+      "Log of normal traffic",
+      "Evidence suggesting a breach",
+      "Multi-factor token"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "49. What does asset enumeration involve?",
+    "choices": [
+      "Listing user passwords",
+      "Counting and identifying network devices",
+      "Encrypting laptops",
+      "Installing SIEM tools"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "50. What protocol is used for remote access with encryption?",
+    "choices": [
+      "FTP",
+      "Telnet",
+      "SSH",
+      "HTTP"
+    ],
+    "answerIndex": 2
+  }
+]
