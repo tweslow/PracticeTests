@@ -1,0 +1,502 @@
+[
+  {
+    "question": "1. What does the 'A' in the CIA triad stand for?",
+    "choices": [
+      "Authorization",
+      "Availability",
+      "Authentication",
+      "Accounting"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "2. Which of the following is considered a deterrent control?",
+    "choices": [
+      "Encryption",
+      "Security guard",
+      "Audit log",
+      "Incident response plan"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "3. What is the primary purpose of a honeypot in cybersecurity?",
+    "choices": [
+      "To block unauthorized access",
+      "To attract and analyze attackers",
+      "To recover from a breach",
+      "To backup sensitive data"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "4. Which of the following best describes 'non-repudiation'?",
+    "choices": [
+      "Ensuring data is not tampered with",
+      "Denying unauthorized access",
+      "Ensuring that a sender cannot deny having sent a message",
+      "Preventing access to systems"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "5. Which control type is focused on restoring systems after a security incident?",
+    "choices": [
+      "Preventive",
+      "Corrective",
+      "Detective",
+      "Directive"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "6. What type of sensor detects changes in pressure?",
+    "choices": [
+      "Infrared",
+      "Microwave",
+      "Ultrasonic",
+      "Pressure"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "question": "7. Which principle requires users to only have the access they need to perform their job?",
+    "choices": [
+      "Zero Trust",
+      "Authentication",
+      "Least Privilege",
+      "Authorization"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "8. What is the role of a Policy Enforcement Point (PEP) in Zero Trust architecture?",
+    "choices": [
+      "To define access policies",
+      "To store user credentials",
+      "To enforce access decisions",
+      "To authenticate users"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "9. Which of the following is a component of the Control Plane in Zero Trust?",
+    "choices": [
+      "Policy Enforcement Point",
+      "Implicit Trust Zones",
+      "Adaptive Identity",
+      "Subject/System"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "10. Which authentication model grants access based on roles assigned to users?",
+    "choices": [
+      "Discretionary Access Control",
+      "Mandatory Access Control",
+      "Role-Based Access Control",
+      "Rule-Based Access Control"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "11. Which of the following security tools is designed to store cryptographic keys securely?",
+    "choices": [
+      "Firewall",
+      "Key escrow",
+      "TPM",
+      "VPN"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "12. What is the process of transforming readable data into unreadable format called?",
+    "choices": [
+      "Obfuscation",
+      "Tokenization",
+      "Encryption",
+      "Hashing"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "13. Which of the following is used to verify data integrity?",
+    "choices": [
+      "Hashing",
+      "Tokenization",
+      "Encryption",
+      "Authentication"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "14. What is a wildcard certificate used for?",
+    "choices": [
+      "Encrypting entire networks",
+      "Securing multiple subdomains with one certificate",
+      "Protecting IoT devices",
+      "Storing public keys"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "15. Which of the following describes 'salting' in cryptography?",
+    "choices": [
+      "Encrypting data with a private key",
+      "Adding random data to a password before hashing",
+      "Verifying data with a digital signature",
+      "Compressing data before hashing"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "16. Which cryptographic process is typically irreversible?",
+    "choices": [
+      "Encryption",
+      "Hashing",
+      "Key Exchange",
+      "Tokenization"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "17. Which cryptographic solution supports both confidentiality and integrity?",
+    "choices": [
+      "Symmetric encryption",
+      "Digital signatures",
+      "Hashing",
+      "Blockchain"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "18. What is the function of the Certificate Revocation List (CRL)?",
+    "choices": [
+      "Store public keys",
+      "List compromised certificates",
+      "Create new certificates",
+      "Authenticate users"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "19. Which of the following is NOT an example of obfuscation?",
+    "choices": [
+      "Steganography",
+      "Tokenization",
+      "Data masking",
+      "Digital signature"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "question": "20. What is the primary purpose of a change management process?",
+    "choices": [
+      "Prevent insider threats",
+      "Track software licenses",
+      "Ensure security during changes",
+      "Monitor user activity"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "21. Which element is NOT typically part of a change management process?",
+    "choices": [
+      "Backout plan",
+      "Test results",
+      "Honeynet",
+      "Impact analysis"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "22. What is key stretching designed to do?",
+    "choices": [
+      "Make encryption stronger",
+      "Slow down brute-force attacks",
+      "Enhance hashing algorithms",
+      "Shorten key generation time"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "23. Which of the following is an example of a physical security control?",
+    "choices": [
+      "Encryption",
+      "Key fob",
+      "VPN",
+      "Antivirus software"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "24. What does a honeynet do?",
+    "choices": [
+      "Encrypt sensitive data",
+      "Isolate legitimate network traffic",
+      "Simulate a complete network to detect attackers",
+      "Block phishing attacks"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "25. Which key is publicly distributed in a PKI environment?",
+    "choices": [
+      "Private key",
+      "Secret key",
+      "Public key",
+      "Shared key"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "26. Which of the following best describes a compensating control?",
+    "choices": [
+      "A control that prevents an incident from occurring",
+      "A control used when the primary control is not feasible",
+      "A control that detects incidents after they happen",
+      "A control that discourages violation of policies"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "27. What does a gap analysis help an organization identify?",
+    "choices": [
+      "Risks of physical intrusion",
+      "Ineffective firewall rules",
+      "Differences between current and desired security posture",
+      "Users who need training"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "28. Which physical security measure is used to restrict vehicle access?",
+    "choices": [
+      "Access badge",
+      "Video surveillance",
+      "Bollards",
+      "Security guard"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "29. Which of the following is an example of a directive control?",
+    "choices": [
+      "Security camera",
+      "Security policy",
+      "Firewall",
+      "Alarm system"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "30. What component of the Zero Trust architecture evaluates access requests?",
+    "choices": [
+      "Policy Engine",
+      "Policy Enforcement Point",
+      "Control Plane",
+      "Data Plane"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "31. Which type of authentication involves verifying both the user and the device?",
+    "choices": [
+      "Token-based authentication",
+      "System-to-system authentication",
+      "Multifactor authentication",
+      "Biometric authentication"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "32. What is the main function of a honeytoken?",
+    "choices": [
+      "Encrypt sensitive data",
+      "Trigger alerts when accessed",
+      "Authenticate users",
+      "Serve as a backup file"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "33. What is the purpose of using an access control vestibule?",
+    "choices": [
+      "To authenticate remote users",
+      "To block network-based attacks",
+      "To prevent tailgating",
+      "To restrict software installations"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "34. Which of the following best represents the 'Integrity' aspect of the CIA triad?",
+    "choices": [
+      "Only authorized users can access data",
+      "Data is available when needed",
+      "Data is accurate and unaltered",
+      "Access is logged for accountability"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "35. Which term refers to a cryptographic process that ensures message authenticity and non-repudiation?",
+    "choices": [
+      "Hashing",
+      "Key exchange",
+      "Digital signature",
+      "Tokenization"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "36. Which encryption type uses the same key for both encryption and decryption?",
+    "choices": [
+      "Asymmetric",
+      "Public key",
+      "Hashing",
+      "Symmetric"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "question": "37. What is tokenization primarily used for?",
+    "choices": [
+      "Encrypting entire files",
+      "Substituting sensitive data with a non-sensitive equivalent",
+      "Compressing large data",
+      "Digitally signing a document"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "38. Which control category does change management fall under?",
+    "choices": [
+      "Technical",
+      "Operational",
+      "Managerial",
+      "Physical"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "39. Which cryptographic element is typically included in a digital certificate?",
+    "choices": [
+      "Root password",
+      "Private key",
+      "Public key",
+      "Key escrow list"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "40. What is the function of the Policy Administrator in Zero Trust?",
+    "choices": [
+      "Monitors encryption keys",
+      "Creates access logs",
+      "Translates policies into enforceable rules",
+      "Encrypts transmitted data"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "41. Which of the following would most likely be used for full-disk encryption?",
+    "choices": [
+      "AES",
+      "SHA-256",
+      "RSA",
+      "MD5"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "42. What does a key management system do?",
+    "choices": [
+      "Monitors authentication logs",
+      "Stores backup credentials",
+      "Manages encryption keys throughout their lifecycle",
+      "Detects unauthorized access"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "43. Which security control type would a standard operating procedure (SOP) be considered?",
+    "choices": [
+      "Preventive",
+      "Technical",
+      "Directive",
+      "Corrective"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "44. Which encryption method uses two different keys for encryption and decryption?",
+    "choices": [
+      "Symmetric",
+      "Asymmetric",
+      "Obfuscation",
+      "Hashing"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "45. What does a certificate signing request (CSR) contain?",
+    "choices": [
+      "A private key",
+      "A request for a key escrow",
+      "Details to generate a digital certificate",
+      "Encrypted data"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "46. What is the purpose of key escrow?",
+    "choices": [
+      "To store passwords securely",
+      "To back up system logs",
+      "To allow third-party access to encrypted data if needed",
+      "To track key expiration dates"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "47. Which hashing algorithm is considered more secure?",
+    "choices": [
+      "MD5",
+      "SHA-1",
+      "SHA-256",
+      "Base64"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "48. Which of the following describes a 'honeyfile'?",
+    "choices": [
+      "Encrypted file sent to end users",
+      "File that contains decoy data to detect attackers",
+      "File that automatically blocks intrusions",
+      "File that stores authentication credentials"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "49. What is the function of a Trusted Platform Module (TPM)?",
+    "choices": [
+      "Encrypts data on removable drives",
+      "Enforces access control on networks",
+      "Provides hardware-based key storage",
+      "Detects phishing attempts"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "50. Which process evaluates potential downtime and user impact during a system change?",
+    "choices": [
+      "Penetration testing",
+      "Impact analysis",
+      "Gap analysis",
+      "Vulnerability scan"
+    ],
+    "answerIndex": 1
+  }
+]
