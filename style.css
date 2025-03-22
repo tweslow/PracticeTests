@@ -81,3 +81,14 @@ body {
   font-weight: bold;
 }
 
+.score-display {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.score-display p {
+  margin: 4px 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
