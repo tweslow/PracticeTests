@@ -1,6 +1,7 @@
 // Example sets: You can add or remove entries depending on how many JSON files you have.
 const sets = [
-  { name: "Security+ Questions", file: "questions_securityplus.json" }
+  { name: "Security+ Questions", file: "questions_securityplus.json" },
+  { name: "Security+ Section 1 Questions", file: "SecurityPlusSectionOne.json" },
   // { name: "Other Set", file: "questions_other.json" },
 ];
 
